@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>七台河市 · 黑龙江省 美食与商圈档案 · FUN</title>
+<meta name="description" content="黑龙江省七台河市的完整本地档案：商圈评级、城市美食、休闲娱乐、儿童亲子、酒店与特产，JSON/MD 数据接口开放。">
+<meta property="og:title" content="七台河市 · 黑龙江省 美食与商圈档案 · FUN">
+<meta property="og:description" content="黑龙江省七台河市的完整本地档案：商圈评级、城市美食、休闲娱乐、儿童亲子、酒店与特产，JSON/MD 数据接口开放。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FUN · fun.worldstip.com">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9f0a'/%3E%3Cstop offset='.55' stop-color='%23ff375f'/%3E%3Cstop offset='1' stop-color='%23bf5af2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%231d1d1f'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-size='30' font-weight='900' text-anchor='middle' fill='url(%23g)'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/leaflet/leaflet.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="nav"><div class="nav-in">
+<a class="nav-logo" href="../index.html">FUN<i></i></a>
+<div class="nav-links">
+<a href="../index.html#cities">城市</a>
+<a href="../index.html#map">商圈地图</a>
+<a href="../index.html#districts">商圈榜</a>
+<a href="../api.html">数据接口</a>
+<a href="../sources.html">数据来源</a>
+</div></div></nav><main>
+<div class="city-hero"><div class="wrap">
+<a class="back-link" href="../index.html#cities">← 返回城市列表</a>
+<div class="city-title-row"><h1 class="city-title">七台河市</h1>
+<span class="city-prov-chip">黑龙江省 · 地级市</span></div>
+<p class="city-sub">七台河市市（区划代码 230900）· 下级区县 4 个 个 · 街道/镇/乡 50 个 个 · 数据更新于 2026-10-23 20:26:30。</p>
+<div class="chip-row"><div class="metric-chip"><b>604</b>POI 总量</div><div class="metric-chip"><b>5</b>商圈档案</div><div class="metric-chip"><b>252</b>美食</div><div class="metric-chip"><b>208</b>休闲娱乐</div><div class="metric-chip"><b>14</b>儿童娱乐</div><div class="metric-chip"><b>24</b>酒店</div><div class="metric-chip"><b>27</b>特产</div></div>
+<div class="chip-row">
+<a class="btn btn-p" href="https://www.meituan.com/s/%E4%B8%83%E5%8F%B0%E6%B2%B3%E5%B8%82%E7%BE%8E%E9%A3%9F" target="_blank" rel="noopener">美团搜「七台河市美食」</a>
+<a class="btn btn-g" href="https://www.dianping.com/" target="_blank" rel="noopener">大众点评 · 七台河市美食频道</a>
+</div></div></div>
+<div class="anchor-nav"><div class="anchor-nav-in"><a href="#sec-cred">可信度</a><a href="#sec-ov">总览</a><a href="#sec-dist">商圈 5</a><a href="#dist-map">🗺 商圈地图</a><a href="#sec-leisure">休闲 60</a><a href="#sec-kids">儿童 14</a><a href="#sec-mall">商场 26</a><a href="#sec-food">美食 80</a><a href="#sec-xiaocan">小店</a><a href="#sec-spec">特产 27</a><a href="#sec-assoc">美食×商圈</a><a href="#sec-hotel">酒店 24</a></div></div>
+<div class="wrap" style="padding-top:34px">
+
+<div class="api-box reveal" id="sec-api">
+<div><div class="ab-t">本页数据的机器可读版本</div>
+<div class="ab-d">全国数据已整合为两个全量文件，本市档案包含在内——一次请求拿全量，不必逐城拼凑</div>
+<code>https://fun.worldstip.com/data.json</code></div>
+<div class="ab-links">
+<a class="ab-btn" href="../data.json" target="_blank" rel="noopener">全量 JSON（含本市）</a>
+<a class="ab-btn ghost" href="../data.md" target="_blank" rel="noopener">全量 Markdown</a>
+<button class="ab-btn ghost" data-copy="https://fun.worldstip.com/data.json">复制 JSON 地址</button>
+</div></div>
+
+<section class="sec-block" id="sec-cred">
+<div class="sec-head reveal"><div class="sec-label">Credibility</div><h2 class="sec-title">数据可信度</h2></div>
+<div class="panel reveal"><div class="kv">
+<div><b>604</b>POI 去重总数</div>
+<div><b>100%</b>有评分比例</div>
+<div><b>0</b>采集告警</div>
+<div><b>2 + 3</b>查询波次</div>
+</div></div></section>
+
+<section class="sec-block" id="sec-ov">
+<div class="sec-head reveal"><div class="sec-label">Overview</div><h2 class="sec-title">城市总览</h2>
+<p class="sec-desc">POI 在区县间的分布，与商圈形态构成。</p></div>
+<div class="panel reveal"><h3>区县 POI 分布</h3><div class="poi-bars"><div class="poi-bar"><span class="lb">桃山区</span><span class="track"><span class="fill" style="width:100.0%"></span></span><span class="vl">335 · 55%</span></div><div class="poi-bar"><span class="lb">勃利县</span><span class="track"><span class="fill" style="width:39.4%"></span></span><span class="vl">132 · 22%</span></div><div class="poi-bar"><span class="lb">新兴区</span><span class="track"><span class="fill" style="width:21.2%"></span></span><span class="vl">71 · 12%</span></div><div class="poi-bar"><span class="lb">茄子河区</span><span class="track"><span class="fill" style="width:19.7%"></span></span><span class="vl">66 · 11%</span></div></div>
+<h3 style="margin-top:22px">商圈形态（4 类）</h3>
+<div class="dd-facts" style="margin-top:8px"><span class="fact"> <b>None</b></span><span class="fact"> <b>None</b></span><span class="fact"> <b>None</b></span><span class="fact"> <b>None</b></span></div></div></section>
+
+<section class="sec-block" id="sec-dist">
+<div class="sec-head reveal"><div class="sec-label">Districts</div><h2 class="sec-title">商圈档案</h2>
+<p class="sec-desc">商圈 = 商业核（购物中心/步行街/商业街/商贸城）+ 700m 内排他归属的配套密度，<b>单店不构成商圈</b>——便利店、杂货铺、超市、五金店、专卖店一律不具核资格。评级 = 密度 40% + 丰度 25% + 口碑 25% + 结构 10%；S ≥72 且均分 ≥4.0，A 62–72，B 48–62，C &lt;48。</p></div>
+<div class="dm-card reveal">
+<div class="dm-head"><div>
+<div class="dm-h"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+<path d="M8 1.7 2 4.8v9.5l6-3.1 6 3.1V4.8L8 1.7Z" stroke="#0071e3" stroke-width="1.4" stroke-linejoin="round"/>
+<circle cx="8" cy="7.5" r="1.7" fill="#0071e3"/></svg>商圈分布图</div>
+<p class="dm-sub">圈 = 该商圈<b>成员 POI 的凸包轮廓</b>（外扩 6%），不是行政边界，也不是按半径画的圆。
+形状来自真实点位分布，沿街型的商圈会呈现细长带状。</p></div>
+<div class="dm-tools"><div class="dm-legend" id="dm-legend"><button class="dm-lg" data-g="all" aria-pressed="true">全部</button><button class="dm-lg" data-g="A" aria-pressed="false"><i style="background:#ff9f0a"></i>A · 2</button><button class="dm-lg" data-g="C" aria-pressed="false"><i style="background:#8e8e93"></i>C · 3</button></div>
+<button class="dm-base" id="dm-base" type="button" aria-pressed="false">深色底图</button></div></div>
+<div id="dist-map" class="dm-canvas"></div>
+<div class="dm-note" id="dm-note"><b>读法</b><span>颜色 = 评级（S 红 / A 橙 / B 蓝 / C 灰），面积 = 排他归属的实际覆盖范围。
+点圈可跳到下方对应档案，档案右上「在地图上定位」可反向飞回来；分级按钮同时过滤地图与档案。
+圈的数量是<b>样本内识别结果</b>——受采集覆盖面约束，没采到的街区不会凭空出现，不代表该城商圈总数。
+底图用高德瓦片，与数据同为 GCJ-02，位置无偏移。</span></div></div>
+<div class="chips" id="city-dist-chips" style="margin-bottom:16px"><button class="chip on" data-g="all">全部</button><button class="chip" data-g="A">A 级 · 2</button><button class="chip" data-g="C">C 级 · 3</button></div><div id="city-dist-grid"><div class="dist-detail" data-g="A" data-name="山湖路商圈">
+<div class="dd-head"><span class="grade-badge gb-a">A</span><span class="dd-name">山湖路商圈</span>
+<span class="dd-sub">混合型（购物中心+街区） · 口碑 3.85 · 总分 79.2</span><button class="dd-locate" type="button" data-locate="山湖路商圈">在地图上定位</button></div>
+<div class="dc-counts"><span class="cnt">商业POI <b>198</b></span><span class="cnt">美食 <b>75</b></span><span class="cnt">休闲 <b>70</b></span><span class="cnt">亲子 <b>3</b></span><span class="cnt">酒店 <b>9</b></span></div>
+<div class="dd-facts"><span class="fact">📍 山湖路36号</span><span class="fact">💰 美食人均中位数 ¥32（区间 ¥10–103）</span><span class="fact">🛣 山湖路</span><span class="fact">📏 198 家商业 POI · 核 14 个 · 覆盖 6/6 类业态 · 均分 3.85</span><span class="fact">🏬 黑龙江七台河步行街、创客街区、东北亚广场、大商新玛特购物广场、大同地下商城、中心商业城、桃南·百盛时代、中央商城 等 14 个</span><span class="fact">⭕ 约 540 m 半径（覆盖 80% 成员），中心 (45.77115, 131.01033)</span><span class="fact">🧮 密度 96×40% + 丰度 100×25% + 口碑 23×25% + 结构 100×10% = 79.2 分</span></div>
+<div class="mix-bar"><i style="width:37.9%;background:#ff9f0a" title="美食 75"></i><i style="width:35.4%;background:#bf5af2" title="休闲娱乐 70"></i><i style="width:1.5%;background:#8e8e93" title="亲子 3"></i><i style="width:4.5%;background:#8e8e93" title="酒店 9"></i><i style="width:5.6%;background:#8e8e93" title="特产 11"></i><i style="width:15.2%;background:#8e8e93" title="零售 30"></i></div><div class="mix-legend"><span><i style="background:#ff9f0a"></i>美食 75</span><span><i style="background:#bf5af2"></i>休闲娱乐 70</span><span><i style="background:#8e8e93"></i>亲子 3</span><span><i style="background:#8e8e93"></i>酒店 9</span><span><i style="background:#8e8e93"></i>特产 11</span><span><i style="background:#8e8e93"></i>零售 30</span></div><div class="assoc-tags" style="margin-top:8px"><span class="assoc-tag">温馨龟锅总店</span><span class="assoc-tag">浩泽大碗麻辣烫(黑龙江七台河步行街店)</span><span class="assoc-tag">福临大碗麻辣烫步行街总店</span></div></div><div class="dist-detail" data-g="A" data-name="康华街商圈">
+<div class="dd-head"><span class="grade-badge gb-a">A</span><span class="dd-name">康华街商圈</span>
+<span class="dd-sub">百货商场型 · 口碑 3.77 · 总分 64.1</span><button class="dd-locate" type="button" data-locate="康华街商圈">在地图上定位</button></div>
+<div class="dc-counts"><span class="cnt">商业POI <b>77</b></span><span class="cnt">美食 <b>32</b></span><span class="cnt">休闲 <b>19</b></span><span class="cnt">亲子 <b>2</b></span><span class="cnt">酒店 <b>5</b></span></div>
+<div class="dd-facts"><span class="fact">📍 新起路219号</span><span class="fact">💰 美食人均中位数 ¥35（区间 ¥11–81）</span><span class="fact">🛣 康华街</span><span class="fact">📏 77 家商业 POI · 核 4 个 · 覆盖 6/6 类业态 · 均分 3.77</span><span class="fact">🏬 东北亚运动城、东北亚商业广场、副食商厦、东北亚中心商城</span><span class="fact">⭕ 约 570 m 半径（覆盖 80% 成员），中心 (45.75290, 130.57615)</span><span class="fact">🧮 密度 79×40% + 丰度 83×25% + 口碑 18×25% + 结构 72×10% = 64.1 分</span></div>
+<div class="mix-bar"><i style="width:41.6%;background:#ff9f0a" title="美食 32"></i><i style="width:24.7%;background:#bf5af2" title="休闲娱乐 19"></i><i style="width:2.6%;background:#8e8e93" title="亲子 2"></i><i style="width:6.5%;background:#8e8e93" title="酒店 5"></i><i style="width:7.8%;background:#8e8e93" title="特产 6"></i><i style="width:16.9%;background:#8e8e93" title="零售 13"></i></div><div class="mix-legend"><span><i style="background:#ff9f0a"></i>美食 32</span><span><i style="background:#bf5af2"></i>休闲娱乐 19</span><span><i style="background:#8e8e93"></i>亲子 2</span><span><i style="background:#8e8e93"></i>酒店 5</span><span><i style="background:#8e8e93"></i>特产 6</span><span><i style="background:#8e8e93"></i>零售 13</span></div><div class="assoc-tags" style="margin-top:8px"><span class="assoc-tag">老田热面(副食店)</span><span class="assoc-tag">小丽地摊</span><span class="assoc-tag">春来农家饭庄</span></div></div><div class="dist-detail" data-g="C" data-name="乐业街商圈">
+<div class="dd-head"><span class="grade-badge gb-c">C</span><span class="dd-name">乐业街商圈</span>
+<span class="dd-sub">批发市场型 · 口碑 3.77 · 总分 44.9</span><button class="dd-locate" type="button" data-locate="乐业街商圈">在地图上定位</button></div>
+<div class="dc-counts"><span class="cnt">商业POI <b>33</b></span><span class="cnt">美食 <b>12</b></span><span class="cnt">休闲 <b>10</b></span><span class="cnt">亲子 <b>2</b></span><span class="cnt">酒店 <b>1</b></span></div>
+<div class="dd-facts"><span class="fact">📍 西环北路与乐业街交叉口西南180米</span><span class="fact">💰 美食人均中位数 ¥37（区间 ¥20–53）</span><span class="fact">🛣 乐业街</span><span class="fact">📏 33 家商业 POI · 核 2 个 · 覆盖 6/6 类业态 · 均分 3.77</span><span class="fact">🏬 四号道商贸城E区、道商贸城</span><span class="fact">⭕ 约 390 m 半径（覆盖 80% 成员），中心 (45.80189, 130.95914)</span><span class="fact">🧮 密度 64×40% + 丰度 50×25% + 口碑 18×25% + 结构 24×10% = 44.9 分</span></div>
+<div class="mix-bar"><i style="width:36.4%;background:#ff9f0a" title="美食 12"></i><i style="width:30.3%;background:#bf5af2" title="休闲娱乐 10"></i><i style="width:6.1%;background:#8e8e93" title="亲子 2"></i><i style="width:3.0%;background:#8e8e93" title="酒店 1"></i><i style="width:6.1%;background:#8e8e93" title="特产 2"></i><i style="width:18.2%;background:#8e8e93" title="零售 6"></i></div><div class="mix-legend"><span><i style="background:#ff9f0a"></i>美食 12</span><span><i style="background:#bf5af2"></i>休闲娱乐 10</span><span><i style="background:#8e8e93"></i>亲子 2</span><span><i style="background:#8e8e93"></i>酒店 1</span><span><i style="background:#8e8e93"></i>特产 2</span><span><i style="background:#8e8e93"></i>零售 6</span></div><div class="assoc-tags" style="margin-top:8px"><span class="assoc-tag">温馨龟锅(北岸三号道店)</span><span class="assoc-tag">双福美食城</span><span class="assoc-tag">东方快餐(北岸店)</span></div></div><div class="dist-detail" data-g="C" data-name="杨扬街商圈">
+<div class="dd-head"><span class="grade-badge gb-c">C</span><span class="dd-name">杨扬街商圈</span>
+<span class="dd-sub">批发市场型 · 口碑 3.75 · 总分 42.1</span><button class="dd-locate" type="button" data-locate="杨扬街商圈">在地图上定位</button></div>
+<div class="dc-counts"><span class="cnt">商业POI <b>23</b></span><span class="cnt">美食 <b>8</b></span><span class="cnt">休闲 <b>7</b></span><span class="cnt">亲子 <b>0</b></span><span class="cnt">酒店 <b>1</b></span></div>
+<div class="dd-facts"><span class="fact">📍 杨扬街421号</span><span class="fact">💰 美食人均中位数 ¥34（区间 ¥20–86）</span><span class="fact">🛣 杨扬街</span><span class="fact">📏 23 家商业 POI · 核 2 个 · 覆盖 5/6 类业态 · 均分 3.75</span><span class="fact">🏬 松雷商贸城、新富街道商贸城</span><span class="fact">⭕ 约 430 m 半径（覆盖 80% 成员），中心 (45.77594, 131.06705)</span><span class="fact">🧮 密度 58×40% + 丰度 50×25% + 口碑 17×25% + 结构 24×10% = 42.1 分</span></div>
+<div class="mix-bar"><i style="width:34.8%;background:#ff9f0a" title="美食 8"></i><i style="width:30.4%;background:#bf5af2" title="休闲娱乐 7"></i><i style="width:4.3%;background:#8e8e93" title="酒店 1"></i><i style="width:4.3%;background:#8e8e93" title="特产 1"></i><i style="width:26.1%;background:#8e8e93" title="零售 6"></i></div><div class="mix-legend"><span><i style="background:#ff9f0a"></i>美食 8</span><span><i style="background:#bf5af2"></i>休闲娱乐 7</span><span><i style="background:#8e8e93"></i>酒店 1</span><span><i style="background:#8e8e93"></i>特产 1</span><span><i style="background:#8e8e93"></i>零售 6</span></div><div class="assoc-tags" style="margin-top:8px"><span class="assoc-tag">茄子河区锦江阁饭店(松雷商贸城店)</span><span class="assoc-tag">一爵甲鱼锅</span><span class="assoc-tag">鑫顺园小吃(湖东家园B区店)</span></div></div><div class="dist-detail" data-g="C" data-name="昆仑商城">
+<div class="dd-head"><span class="grade-badge gb-c">C</span><span class="dd-name">昆仑商城</span>
+<span class="dd-sub">百货商场型 · 口碑 3.79 · 总分 35.5</span><button class="dd-locate" type="button" data-locate="昆仑商城">在地图上定位</button></div>
+<div class="dc-counts"><span class="cnt">商业POI <b>16</b></span><span class="cnt">美食 <b>6</b></span><span class="cnt">休闲 <b>8</b></span><span class="cnt">亲子 <b>0</b></span><span class="cnt">酒店 <b>1</b></span></div>
+<div class="dd-facts"><span class="fact">📍 山湖路与和谐巷交叉口东北140米</span><span class="fact">💰 美食人均中位数 ¥44（区间 ¥13–94）</span><span class="fact">🛣 山湖路</span><span class="fact">📏 16 家商业 POI · 核 1 个 · 覆盖 4/6 类业态 · 均分 3.79</span><span class="fact">🏬 昆仑商城</span><span class="fact">⭕ 约 270 m 半径（覆盖 80% 成员），中心 (45.77949, 131.00815)</span><span class="fact">🧮 密度 51×40% + 丰度 33×25% + 口碑 19×25% + 结构 18×10% = 35.5 分</span></div>
+<div class="mix-bar"><i style="width:37.5%;background:#ff9f0a" title="美食 6"></i><i style="width:50.0%;background:#bf5af2" title="休闲娱乐 8"></i><i style="width:6.2%;background:#8e8e93" title="酒店 1"></i><i style="width:6.2%;background:#8e8e93" title="零售 1"></i></div><div class="mix-legend"><span><i style="background:#ff9f0a"></i>美食 6</span><span><i style="background:#bf5af2"></i>休闲娱乐 8</span><span><i style="background:#8e8e93"></i>酒店 1</span><span><i style="background:#8e8e93"></i>零售 1</span></div><div class="assoc-tags" style="margin-top:8px"><span class="assoc-tag">品味笨锅炖(银泉新都店)</span><span class="assoc-tag">百合春蒸饺</span><span class="assoc-tag">养生酸汤鱼</span></div></div></div></section>
+
+<section class="sec-block" id="sec-leisure">
+<div class="sec-head reveal"><div class="sec-label">Leisure</div><h2 class="sec-title">休闲娱乐</h2>
+<p class="sec-desc">KTV/量贩KTV、夜店、酒吧、清吧、游乐场、卡丁车、体育馆、足疗按摩、电影院、游戏厅等 14 子类。</p></div>
+<div class="panel reveal"><div class="dd-facts"><span class="fact">足疗按摩 <b>50</b></span><span class="fact">酒吧/清吧 <b>47</b></span><span class="fact">KTV/夜总会 <b>21</b></span><span class="fact">棋牌室 <b>20</b></span><span class="fact">游戏厅/电玩 <b>17</b></span><span class="fact">网吧/网咖/电竞 <b>13</b></span><span class="fact">其他娱乐场所 <b>13</b></span><span class="fact">电影院 <b>10</b></span><span class="fact">运动场馆/体育馆 <b>7</b></span><span class="fact">游乐场（成人向） <b>5</b></span><span class="fact">密室逃脱/剧本杀 <b>4</b></span><span class="fact">水上乐园/游泳馆 <b>1</b></span></div>
+<div style="margin-top:14px"><div class="tbl-wrap"><table class="dt"><thead><tr><th>标记</th><th>名称</th><th>子类</th><th>评分</th><th>人均</th><th>地址</th></tr></thead><tbody><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">好乐迪至尚(五金交电大厦店)</td><td class="td-sub">KTV/夜总会</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">62.00</td><td>五金交电大厦</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">香蕉X拿拿小酒馆(七台河百盛店)</td><td class="td-sub">酒吧/清吧</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">80.00</td><td>彩云街1号(百盛时代商城三楼西侧)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">哆米电竞馆</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">—</td><td>学府街96号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">小鱼电竞馆</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">—</td><td>北山街北岸新城s-23号6商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">双喜24小时自助棋牌(24小时营业)</td><td class="td-sub">棋牌室</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">36.00</td><td>太白小区五组团3号楼5号商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">Coco休闲娱乐</td><td class="td-sub">其他娱乐场所</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">17.00</td><td>景丰路39号(景丰家园西2门旁)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">酒逢知己小酒馆</td><td class="td-sub">酒吧/清吧</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">54.00</td><td>文华路东方名苑</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">合众不二馄饨酒馆</td><td class="td-sub">酒吧/清吧</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">18.00</td><td>桃北街道霞光街147号育才苑</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">铭轩小木屋米酒馆(欧洲新城店)</td><td class="td-sub">酒吧/清吧</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">37.00</td><td>欧洲新城33号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">好乐迪KTV(桃山体育馆店)</td><td class="td-sub">KTV/夜总会</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">41.00</td><td>旭日街桃山体育馆</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">滚石网络广场</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">—</td><td>学府华庭2号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">木希电竞</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">—</td><td>翰林苑33号门市木希电竞</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">小鱼网咖(朝阳店)</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">24.00</td><td>朝阳小区三组团</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">腾龙电竞网咖(七台河商贸博览城店)</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">—</td><td>王圆奥东麻将机</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">金麦KTV</td><td class="td-sub">KTV/夜总会</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">136.00</td><td>新东方嘉园B区9号楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">勃利县昌龙小酒馆(一店)</td><td class="td-sub">酒吧/清吧</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">32.00</td><td>城西街10委润育华庭小区12栋商服0120室</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">日暮里Moonli</td><td class="td-sub">酒吧/清吧</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">57.00</td><td>朝阳广场风采路279号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">中心网咖</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">—</td><td>桃北街旭日街536号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">熊猫电竞</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">15.00</td><td>旭日街580号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">嘉年华KTV(向阳街)</td><td class="td-sub">KTV/夜总会</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">114.00</td><td>建工路54号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">卓威电竞馆</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">—</td><td>南岸花园3号楼6户</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">德伦堡精酿(茄子河店)</td><td class="td-sub">酒吧/清吧</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">—</td><td>华城小区5号楼6号商服</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">狼嚎小巷休闲小酒馆(暂停营业)</td><td class="td-sub">酒吧/清吧</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">—</td><td>金星花园</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">红高粱酒馆</td><td class="td-sub">酒吧/清吧</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">50.00</td><td>欧洲新城29号楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">聚宾阁小酒馆(湖滨小区店)</td><td class="td-sub">酒吧/清吧</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">69.00</td><td>银泉新都正门西220米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">岁月歌舞厅</td><td class="td-sub">其他娱乐场所</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">56.00</td><td>北行农场兴平社区服务站北岸新城三号大道商贸博览城二期E7</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">K9量贩式KTV(桃南·百盛时代店)</td><td class="td-sub">KTV/夜总会</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">12.00</td><td>桃南·百盛时代东门旁</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">诺手网咖</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">15.00</td><td>兴华街道北岸新城五号大道349号楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">网遇电竞</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">—</td><td>学府路43号(东正小区西门西南60米)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">鹿屯儿游戏屋</td><td class="td-sub">游戏厅/电玩</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">13.00</td><td>学府街70-1号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">初见酒馆</td><td class="td-sub">酒吧/清吧</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">44.00</td><td>国税局家属楼北100米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">光年电竞</td><td class="td-sub">网吧/网咖/电竞</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">—</td><td>金星花园北门旁</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">友牌面</td><td class="td-sub">游戏厅/电玩</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">—</td><td>学府路与永安街交叉口东南200米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">云端官邸KTV</td><td class="td-sub">KTV/夜总会</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">—</td><td>新富街道东方建材家居城b区3楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">麦乐族国际商务汇</td><td class="td-sub">KTV/夜总会</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">—</td><td>茄子河镇七台河市商贸城西侧</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">啤酒阿姨(吉祥街店)</td><td class="td-sub">其他娱乐场所</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">54.00</td><td>翰林苑</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">川味小酒馆</td><td class="td-sub">酒吧/清吧</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">—</td><td>机关楼141号102号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">球道台吧</td><td class="td-sub">其他娱乐场所</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">25.00</td><td>北岸新城237号楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">顺和小酒馆(学府华庭店)</td><td class="td-sub">酒吧/清吧</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">28.00</td><td>学府社区服务站七大侧门学府花庭1号楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">奈尔堡电玩馆</td><td class="td-sub">游戏厅/电玩</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">42.00</td><td>景丰路38号金融大厦</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">浩盛台球棋牌电玩</td><td class="td-sub">游戏厅/电玩</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">—</td><td>北岸新城三号大道S23-7</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">七台河市茄子河区后街酒吧</td><td class="td-sub">酒吧/清吧</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">—</td><td>金水湾24号楼1号商服2楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">微语酒吧</td><td class="td-sub">酒吧/清吧</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">33.00</td><td>金星花园</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">老友记熏酱小酒馆(富康花园小区店)</td><td class="td-sub">酒吧/清吧</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">54.00</td><td>元明街富康花园小区南门市62-3-0120-1室</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">红象乐园电玩城(福沃家购物中心店)</td><td class="td-sub">游戏厅/电玩</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">26.00</td><td>桃北街道学府街32号福沃家购物中心二楼</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">小E游戏基地</td><td class="td-sub">游戏厅/电玩</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">9.00</td><td>风采路与大同街交叉口北80米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">嘉年华动漫</td><td class="td-sub">游戏厅/电玩</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">—</td><td>桃北街道山湖路23号桃山创业园</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">电玩大本营</td><td class="td-sub">游戏厅/电玩</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">—</td><td>北岸新城附近</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">乐感地带量贩式KTV</td><td class="td-sub">KTV/夜总会</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">54.00</td><td>大同街457号东方花园</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">叮叮ktv</td><td class="td-sub">KTV/夜总会</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">—</td><td>环城公路北50米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">再回首KTV</td><td class="td-sub">KTV/夜总会</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">37.00</td><td>北山街道双叶大道欣源小区A1-7商服</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">转角故事音乐酒馆(霞光街店)</td><td class="td-sub">酒吧/清吧</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">57.00</td><td>桃山街道霞光街92号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">音浪酒吧</td><td class="td-sub">酒吧/清吧</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">—</td><td>大同街457号东方花园</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">浇个朋友小酒馆</td><td class="td-sub">酒吧/清吧</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">—</td><td>南大直路161号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">冠军传奇七台河之夜</td><td class="td-sub">KTV/夜总会</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">—</td><td>学府街6号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">蓝梦量贩式KTV</td><td class="td-sub">KTV/夜总会</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">54.00</td><td>双叶大道东50米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">多客仕休闲清吧(银泉广场店)</td><td class="td-sub">酒吧/清吧</td><td><b>3.6</b></td><td style="color:var(--orange);font-weight:600">43.00</td><td>银泉新都9号楼东一户半地下</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">兰朵音乐酒吧</td><td class="td-sub">酒吧/清吧</td><td><b>3.6</b></td><td style="color:var(--orange);font-weight:600">82.00</td><td>大同街457号东方花园</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">那些年酒吧</td><td class="td-sub">酒吧/清吧</td><td><b>3.6</b></td><td style="color:var(--orange);font-weight:600">—</td><td>新起路与康华街交叉口北80米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">肆我LibreYo</td><td class="td-sub">酒吧/清吧</td><td><b>3.6</b></td><td style="color:var(--orange);font-weight:600">—</td><td>旭日街369号</td></tr></tbody></table></div></div>
+<p class="p-desc" style="margin-top:10px">仅显示前 150 家，全量见 JSON 接口。</p></div></section>
+
+<section class="sec-block" id="sec-kids">
+<div class="sec-head reveal"><div class="sec-label">Kids</div><h2 class="sec-title">儿童与亲子娱乐</h2>
+<p class="sec-desc">儿童乐园、电玩中心、迷你游乐场、迷你动物园/萌宠；「场内」可顺路，「独立」需单独规划。</p></div>
+<div class="panel reveal"><div class="dd-facts"><span class="fact">其他儿童场所 <b>4</b></span><span class="fact">儿童乐园/游乐场 <b>3</b></span><span class="fact">淘气堡 <b>3</b></span><span class="fact">亲子乐园 <b>2</b></span><span class="fact">迷你动物园/萌宠 <b>2</b></span></div>
+<div style="margin-top:14px"><div class="tbl-wrap"><table class="dt"><thead><tr><th>标记</th><th>名称</th><th>子类</th><th>位置</th><th>评分</th><th>地址</th></tr></thead><tbody><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">万宝湖儿童公园</td><td class="td-sub">其他儿童场所</td><td></td><td><b>4.4</b></td><td>万宝公园内</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">欢乐时光亲子乐园</td><td class="td-sub">亲子乐园</td><td></td><td><b>4.3</b></td><td>清园火车头小镇院内</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">愉悦宝贝亲子游泳水上乐园(景丰路店)</td><td class="td-sub">亲子乐园</td><td></td><td><b>4.2</b></td><td>景丰路38号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">创艺天地儿童手工体验馆</td><td class="td-sub">其他儿童场所</td><td></td><td><b>4.1</b></td><td>霞光街123号(七小正门东侧)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">冰冠之城少儿社会体验馆</td><td class="td-sub">其他儿童场所</td><td></td><td><b>4.0</b></td><td>北岸新城三号道S-27商服</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">恒煤公园儿童游乐园</td><td class="td-sub">儿童乐园/游乐场</td><td></td><td><b>3.8</b></td><td>学府路西100米恒煤花园内(西侧)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">蓝猫淘气堡</td><td class="td-sub">淘气堡</td><td></td><td><b>3.5</b></td><td>万宝湖儿童公园内(东侧)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">动物园</td><td class="td-sub">迷你动物园/萌宠</td><td></td><td><b>3.5</b></td><td>万宝湖儿童公园内(东侧)</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">萌宠生活馆(大同街店)</td><td class="td-sub">迷你动物园/萌宠</td><td></td><td><b>3.4</b></td><td>富贵园小区</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">淘淘熊出没主题儿童游乐园</td><td class="td-sub">儿童乐园/游乐场</td><td></td><td><b>3.3</b></td><td>康华街与镇安路交叉口东20米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">淘气堡</td><td class="td-sub">淘气堡</td><td></td><td><b>3.3</b></td><td>景丰路38号金融大厦</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">迷你花艺(花思忆)</td><td class="td-sub">其他儿童场所</td><td></td><td><b>3.2</b></td><td>旭日街164号</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">鸿峰儿童乐园动漫体验中心(东北亚商业广场店)</td><td class="td-sub">儿童乐园/游乐场</td><td></td><td><b>3.0</b></td><td>新起路219号东北亚商业广场F2</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">蹦跳兔淘气堡(北岸新城店)</td><td class="td-sub">淘气堡</td><td></td><td><b>2.1</b></td><td>商贸博览城C11-107</td></tr></tbody></table></div></div></div></section>
+
+<section class="sec-block" id="sec-mall">
+<div class="sec-head reveal"><div class="sec-label">Malls</div><h2 class="sec-title">综合体与商场</h2></div>
+<div class="panel reveal"><div class="tbl-wrap"><table class="dt"><thead><tr><th>标记</th><th>名称</th><th>业态</th><th>评分</th><th>所属商圈</th><th>地址</th></tr></thead><tbody><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">大商新玛特购物广场(七台河店)</td><td>购物中心</td><td><b>4.6</b></td><td>山湖路商圈</td><td>山湖路36号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">东北亚广场</td><td>购物中心</td><td><b>4.4</b></td><td>山湖路商圈</td><td>黑龙江省桃山区山湖路32号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">松雷商贸城</td><td>批发市场</td><td><b>4.4</b></td><td>杨扬街商圈</td><td>杨扬街421号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">东北亚商业广场</td><td>百货商场</td><td><b>4.4</b></td><td>康华街商圈</td><td>新起路219号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">福沃家购物中心</td><td>百货商场</td><td><b>4.1</b></td><td>山湖路商圈</td><td>文化小区</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">友谊商厦</td><td>百货商场</td><td><b>4.1</b></td><td>山湖路商圈</td><td>温州大街75号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">东北亚中心商城(东北亚商业广场店)</td><td>百货商场</td><td><b>4.0</b></td><td>康华街商圈</td><td>新起路219号东北亚商业广场F1层</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">昆仑商城</td><td>百货商场</td><td><b>3.9</b></td><td>昆仑商城</td><td>山湖路与和谐巷交叉口东北140米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">桃南·百盛时代</td><td>百货商场</td><td><b>3.9</b></td><td>山湖路商圈</td><td>丰昌巷与彩云街交叉口西北60米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">栖光·新天地(友谊商厦店)</td><td>百货商场</td><td><b>3.9</b></td><td>山湖路商圈</td><td>桃北街道友谊商厦负一层68号厅</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">副食商厦</td><td>百货商场</td><td><b>3.9</b></td><td>康华街商圈</td><td>元明街道长安街44号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">中心商业城(黑龙江七台河步行街店)</td><td>百货商场</td><td><b>3.7</b></td><td>山湖路商圈</td><td>桃北街道山湖路103-3号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">中央商城(黑龙江七台河步行街店)</td><td>百货商场</td><td><b>3.7</b></td><td>山湖路商圈</td><td>步行街地下</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">大商股份(大商新玛特购物广场店)</td><td>百货商场</td><td><b>3.7</b></td><td>山湖路商圈</td><td>山湖路36号大商新玛特购物广场七台河店F1层</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">大同地下商城</td><td>百货商场</td><td><b>3.6</b></td><td>山湖路商圈</td><td>风采路138号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">龙翔商贸城</td><td>批发市场</td><td><b>3.5</b></td><td>—</td><td>兴华街龙江银行龙翔支行</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">东北亚运动城</td><td>百货商场</td><td><b>3.4</b></td><td>康华街商圈</td><td>康华街与明华路交叉口东20米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">鑫达百货</td><td>百货商场</td><td><b>3.4</b></td><td>—</td><td>抢垦乡三合村</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">仁和商场</td><td>百货商场</td><td><b>3.3</b></td><td>—</td><td>共青团路与红领巾街交叉口东南120米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">广鑫商厦</td><td>百货商场</td><td><b>3.1</b></td><td>—</td><td>正阳街735号</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">阳光商城(正阳街)</td><td>百货商场</td><td><b>2.9</b></td><td>—</td><td>正阳街663号</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">新富街道商贸城</td><td>批发市场</td><td><b>2.6</b></td><td>杨扬街商圈</td><td>杨杨街与湖东路交叉口东40米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">丰途商贸城</td><td>批发市场</td><td><b>2.3</b></td><td>—</td><td>勃利县公安局交通警察大队车辆管理所西北侧50米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">四号道商贸城E区</td><td>批发市场</td><td><b>2.2</b></td><td>乐业街商圈</td><td>西环北路与乐业街交叉口西南180米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">比其广场(友谊商厦店)</td><td>百货商场</td><td><b>1.9</b></td><td>山湖路商圈</td><td>温州大街75号友谊商厦F2层</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">道商贸城</td><td>批发市场</td><td><b>1.4</b></td><td>乐业街商圈</td><td>西环北路与乐业街交叉口西南180米</td></tr></tbody></table></div></div></section>
+
+<section class="sec-block" id="sec-food">
+<div class="sec-head reveal"><div class="sec-label">Food</div><h2 class="sec-title">本地美食与特色美食</h2>
+<p class="sec-desc">标记口径：✅A 评分 ≥4.6 且带本地/老字号语义；✅A- 评分 ≥4.6；✅B 4.3–4.6；⚠️ 3.5–4.3 或无评分；❌ &lt;3.5 或无地址。</p></div>
+<div class="food-grid"><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_2047_1761097347791_27775341.jpg" alt="温馨龟锅总店" loading="lazy" decoding="async">
+<div class="ph">温</div><span class="rt">★ 4.7</span></div>
+<div class="food-body"><div class="food-name">温馨龟锅总店</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">46.00</span>
+<span class="td-sub">大同街27号</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_1000108587_ss__1759474525928_35405776.jpg" alt="温馨龟锅(北岸三号道店)" loading="lazy" decoding="async">
+<div class="ph">温</div><span class="rt">★ 4.7</span></div>
+<div class="food-body"><div class="food-name">温馨龟锅(北岸三号道店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">44.00</span>
+<span class="td-sub">西环北路与乐业街交叉口西南320米</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/eeb68495efc6e6230000001779810967?type=pic" alt="滨尚小镇北京梨木烤鸭" loading="lazy" decoding="async">
+<div class="ph">滨</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">滨尚小镇北京梨木烤鸭</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">120.00</span>
+<span class="td-sub">滨尚雅居滨尚小镇</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/49a2f5ff-8efa-4a1f-831d-d920b99b80c9.jpg" alt="老独一处羊汤馆(大同街店)" loading="lazy" decoding="async">
+<div class="ph">老</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">老独一处羊汤馆(大同街店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">29.00</span>
+<span class="td-sub">大同街116号</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/8982ab22ef2ede7523b504e0beae66e1_2048_2048_80.jpg" alt="浩泽大碗麻辣烫(黑龙江七台河步行街店)" loading="lazy" decoding="async">
+<div class="ph">浩</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">浩泽大碗麻辣烫(黑龙江七台河步行街店)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">18.00</span>
+<span class="td-sub">温州大街115号</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/a1dcd9bee50e3e020000003008392119?type=pic" alt="福临大碗麻辣烫步行街总店" loading="lazy" decoding="async">
+<div class="ph">福</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">福临大碗麻辣烫步行街总店</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">21.00</span>
+<span class="td-sub">温州大街115号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/%5B2026-03-08-13-42-27%5DC581FAAA-08E1-41CC-AAE9-98EAA420088_1772948550728_83489126.jpg" alt="勃利专业热面(学府路店)" loading="lazy" decoding="async">
+<div class="ph">勃</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">勃利专业热面(学府路店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">12.00</span>
+<span class="td-sub">学府路与吉祥街交叉口西南40米</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/2CE414A5_1861_4FF8_855A_CDBC10CEC43D_L0_001_2000_150_1762976266845_48309577.jpg" alt="老田热面(副食店)" loading="lazy" decoding="async">
+<div class="ph">老</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">老田热面(副食店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">12.00</span>
+<span class="td-sub">明华路29号</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/346ede0b05d851390000003381186200?type=pic" alt="勃利夜市" loading="lazy" decoding="async">
+<div class="ph">勃</div><span class="rt">★ 4.6</span></div>
+<div class="food-body"><div class="food-name">勃利夜市</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">19.00</span>
+<span class="td-sub">新华路与南郊街交叉口西南260米</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/85d451b95cfb602f0000003209608871?type=pic" alt="老城北木炭火锅" loading="lazy" decoding="async">
+<div class="ph">老</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">老城北木炭火锅</div>
+<div class="food-type">餐饮服务;中餐厅;火锅店</div>
+<div class="food-foot"><span class="food-avg">63.00</span>
+<span class="td-sub">双叶大道欣源小区5号楼道口左侧商服</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/DF6C93B2_59ED_4B46_8D71_0B8265616F5F_L0_001_1320_156_1769388798142_05087594.jpg" alt="湘李湖南厨房" loading="lazy" decoding="async">
+<div class="ph">湘</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">湘李湖南厨房</div>
+<div class="food-type">餐饮服务;中餐厅;湖南菜(湘菜)</div>
+<div class="food-foot"><span class="food-avg">67.00</span>
+<span class="td-sub">同进街与同仁路交叉口东180米</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/e5d865f163ac235b94735f34e8745799" alt="香君狗肉馆(晨曦路店)" loading="lazy" decoding="async">
+<div class="ph">香</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">香君狗肉馆(晨曦路店)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">42.00</span>
+<span class="td-sub">晨曦路10号(金星花园东门北50米)</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/c32b7de2ac418adda6e540314225b284" alt="龙江美食" loading="lazy" decoding="async">
+<div class="ph">龙</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">龙江美食</div>
+<div class="food-type">餐饮服务;中餐厅;综合酒楼</div>
+<div class="food-foot"><span class="food-avg">32.00</span>
+<span class="td-sub">景丰路86号</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/a3ad59dee9343b630000000724956949?type=pic" alt="百年木炭火锅(景丰路店)" loading="lazy" decoding="async">
+<div class="ph">百</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">百年木炭火锅(景丰路店)</div>
+<div class="food-type">餐饮服务;中餐厅;火锅店</div>
+<div class="food-foot"><span class="food-avg">73.00</span>
+<span class="td-sub">景丰路111号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_1000026764_ss__1760066132066_24164738.jpg" alt="口口香龟锅美食店(总)" loading="lazy" decoding="async">
+<div class="ph">口</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">口口香龟锅美食店(总)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">58.00</span>
+<span class="td-sub">晨曦路六号</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/1a180f36072acfce26672d2bf9a6e8eb" alt="稻香村农家院(吉祥街店)" loading="lazy" decoding="async">
+<div class="ph">稻</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">稻香村农家院(吉祥街店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">49.00</span>
+<span class="td-sub">南大直路126号</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/75053a0f419c8a890000003924754763?type=pic" alt="双福美食城" loading="lazy" decoding="async">
+<div class="ph">双</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">双福美食城</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">21.00</span>
+<span class="td-sub">北岸新城小区S-24号楼2-3号商服</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_images_media_100001448_1741088483599_14840226.jpg" alt="小丽地摊" loading="lazy" decoding="async">
+<div class="ph">小</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">小丽地摊</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">68.00</span>
+<span class="td-sub">康华街171号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_12334_1767881528549_37491452.jpg" alt="老妈粥铺(彩云街)" loading="lazy" decoding="async">
+<div class="ph">老</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">老妈粥铺(彩云街)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">10.00</span>
+<span class="td-sub">桃南街道朝阳广场</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/68227aa7-4c8d-4fec-9092-19b098275611.png" alt="沸腾水煮串(体育场总店)" loading="lazy" decoding="async">
+<div class="ph">沸</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">沸腾水煮串(体育场总店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">24.00</span>
+<span class="td-sub">旭日街职高楼半地下</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/3d7243ecb0f8a1b60000003365600822?type=pic" alt="管红热面炸串(七星花园店)" loading="lazy" decoding="async">
+<div class="ph">管</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">管红热面炸串(七星花园店)</div>
+<div class="food-type">餐饮服务;快餐厅;快餐厅</div>
+<div class="food-foot"><span class="food-avg">19.00</span>
+<span class="td-sub">七星花园A区步行街</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/b321a24de0205adb445d82c44d14808f" alt="锦林蒸饺馆(美食文化街店)" loading="lazy" decoding="async">
+<div class="ph">锦</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">锦林蒸饺馆(美食文化街店)</div>
+<div class="food-type">餐饮服务;快餐厅;快餐厅</div>
+<div class="food-foot"><span class="food-avg">24.00</span>
+<span class="td-sub">鑫源帝景西门门市</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_images_media_100007024_1730895719878_03571724.jpg" alt="东方快餐(北岸店)" loading="lazy" decoding="async">
+<div class="ph">东</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">东方快餐(北岸店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">23.00</span>
+<span class="td-sub">北岸新城108号楼3号商服</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_2300_1766214686000_66763282.jpg" alt="清真德月楼" loading="lazy" decoding="async">
+<div class="ph">清</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">清真德月楼</div>
+<div class="food-type">餐饮服务;中餐厅;清真菜馆</div>
+<div class="food-foot"><span class="food-avg">55.00</span>
+<span class="td-sub">运销处小区院内</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_100031480_1749769838252_32953443.jpg" alt="杨胖子双城杀猪菜" loading="lazy" decoding="async">
+<div class="ph">杨</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">杨胖子双城杀猪菜</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">37.00</span>
+<span class="td-sub">友谊商务会馆西侧</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_images_media_100001374_1731805695318_97205437.jpg" alt="古往今来寻味小馆" loading="lazy" decoding="async">
+<div class="ph">古</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">古往今来寻味小馆</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">29.00</span>
+<span class="td-sub">霞光路180号(太白小区北1门东160米)</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_100002387_1762581460172_92623139.jpg" alt="山里红铁锅炖(东安街店)" loading="lazy" decoding="async">
+<div class="ph">山</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">山里红铁锅炖(东安街店)</div>
+<div class="food-type">餐饮服务;餐饮相关场所;餐饮相关</div>
+<div class="food-foot"><span class="food-avg">64.00</span>
+<span class="td-sub">东安街与通达路交叉口西100米</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_33031_ss__1773555486770_00191563.jpg" alt="老何二婶家铁锅炖大鹅" loading="lazy" decoding="async">
+<div class="ph">老</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">老何二婶家铁锅炖大鹅</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">70.00</span>
+<span class="td-sub">金水湾小区67号</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_images_media_11543_1738272697120_34286298.jpg" alt="和顺居酒店(北岸新城店)" loading="lazy" decoding="async">
+<div class="ph">和</div><span class="rt">★ 4.5</span></div>
+<div class="food-body"><div class="food-name">和顺居酒店(北岸新城店)</div>
+<div class="food-type">住宿服务;宾馆酒店;宾馆酒店｜餐饮服务;餐饮相关场所;餐饮相关</div>
+<div class="food-foot"><span class="food-avg">50.00</span>
+<span class="td-sub">北岸新城三号道</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_100009519_1761672077654_49778602.jpg" alt="瑞祥肥牛火锅" loading="lazy" decoding="async">
+<div class="ph">瑞</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">瑞祥肥牛火锅</div>
+<div class="food-type">餐饮服务;中餐厅;火锅店</div>
+<div class="food-foot"><span class="food-avg">53.00</span>
+<span class="td-sub">桃南街</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/392c162b279b7e60a44ddc85a18c66db" alt="旮旯烧烤(景丰路店)" loading="lazy" decoding="async">
+<div class="ph">旮</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">旮旯烧烤(景丰路店)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">35.00</span>
+<span class="td-sub">景丰路250号</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/7add1304d7c772826e9f9e7b8e0374bd" alt="居家酒楼(荔园路店)" loading="lazy" decoding="async">
+<div class="ph">居</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">居家酒楼(荔园路店)</div>
+<div class="food-type">餐饮服务;中餐厅;综合酒楼</div>
+<div class="food-foot"><span class="food-avg">56.00</span>
+<span class="td-sub">荔园路同仁新居9号楼</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/205df4e03977eb740000001498014838?type=pic" alt="香满楼酒楼(怡安小区店)" loading="lazy" decoding="async">
+<div class="ph">香</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">香满楼酒楼(怡安小区店)</div>
+<div class="food-type">餐饮服务;中餐厅;综合酒楼</div>
+<div class="food-foot"><span class="food-avg">43.00</span>
+<span class="td-sub">桃南街怡安小区20号楼B楼1号商服</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/8d2e97c194131881b06436030f697831_2048_2048_80.jpg" alt="富强羊汤馆" loading="lazy" decoding="async">
+<div class="ph">富</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">富强羊汤馆</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">21.00</span>
+<span class="td-sub">富强小区36号楼东侧平房三号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/e71cff107da4b4740000007243458952?type=pic" alt="许微小舍私厨馆" loading="lazy" decoding="async">
+<div class="ph">许</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">许微小舍私厨馆</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">—</span>
+<span class="td-sub">育才苑二建A3号楼80后烧烤隔壁</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/3f767d60ce5c14cc0270f397ae582115_2048_2048_80.jpg" alt="大红象老太太烤冷面正店" loading="lazy" decoding="async">
+<div class="ph">大</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">大红象老太太烤冷面正店</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">14.00</span>
+<span class="td-sub">北京同仁堂旁胡同内直走</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/2d20b177a8ed822d49f2ba291f163edb" alt="龙凤炖菜馆(军官小区店)" loading="lazy" decoding="async">
+<div class="ph">龙</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">龙凤炖菜馆(军官小区店)</div>
+<div class="food-type">餐饮服务;中餐厅;东北菜</div>
+<div class="food-foot"><span class="food-avg">24.00</span>
+<span class="td-sub">秀峰路75号军官小区商服</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/a3ad59dee9343b630000000724956949?type=pic" alt="百年木炭火锅(金水湾店)" loading="lazy" decoding="async">
+<div class="ph">百</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">百年木炭火锅(金水湾店)</div>
+<div class="food-type">餐饮服务;中餐厅;火锅店</div>
+<div class="food-foot"><span class="food-avg">36.00</span>
+<span class="td-sub">桃南街道奋斗路18号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/15bbf52cb708ecb8a792bb05109a3767" alt="木兰小吃狗肉馆" loading="lazy" decoding="async">
+<div class="ph">木</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">木兰小吃狗肉馆</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">45.00</span>
+<span class="td-sub">世纪新村C区1号楼107宏祥食杂店</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/06816d1ec48d697626a659f2f649470c" alt="冬梅小吃(珍珠巷)" loading="lazy" decoding="async">
+<div class="ph">冬</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">冬梅小吃(珍珠巷)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">21.00</span>
+<span class="td-sub">松林小区8号楼</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/173245643734_1732456455563_05665633.jpg" alt="品味笨锅炖(银泉新都店)" loading="lazy" decoding="async">
+<div class="ph">品</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">品味笨锅炖(银泉新都店)</div>
+<div class="food-type">餐饮服务;餐饮相关场所;餐饮相关</div>
+<div class="food-foot"><span class="food-avg">56.00</span>
+<span class="td-sub">银泉小区1号楼</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_images_media_233348_1656258592003_8ed879a7.jpg" alt="60年代老菜馆" loading="lazy" decoding="async">
+<div class="ph">6</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">60年代老菜馆</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">88.00</span>
+<span class="td-sub">文华路138号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/1ecb86a1d490339d56bdc46ae1bc2aab" alt="和记和平饭店" loading="lazy" decoding="async">
+<div class="ph">和</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">和记和平饭店</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">23.00</span>
+<span class="td-sub">万宝小区16号楼</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/0f1f06d24fe9f5f9ad7ca175791adaf6" alt="光大夜市" loading="lazy" decoding="async">
+<div class="ph">光</div><span class="rt">★ 4.4</span></div>
+<div class="food-body"><div class="food-name">光大夜市</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">19.00</span>
+<span class="td-sub">南大直路与南郊街交叉口南260米</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/9d5d62aeb895671d35551c5700834730" alt="七台河新兴区清真福来顺" loading="lazy" decoding="async">
+<div class="ph">七</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">七台河新兴区清真福来顺</div>
+<div class="food-type">餐饮服务;中餐厅;清真菜馆</div>
+<div class="food-foot"><span class="food-avg">42.00</span>
+<span class="td-sub">正阳街897号</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/57ac717abae18a17a9a8614c468787c6" alt="温馨龟锅(新东方店)" loading="lazy" decoding="async">
+<div class="ph">温</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">温馨龟锅(新东方店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">56.00</span>
+<span class="td-sub">新东方家园a区10号楼</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/E1654F54_7018_4E5E_9C3B_D93DF36A1866_L0_001_2016_151_1772252615217_12986093.jpg" alt="温馨龟锅(七市第一店)" loading="lazy" decoding="async">
+<div class="ph">温</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">温馨龟锅(七市第一店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">31.00</span>
+<span class="td-sub">奋斗路223号</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/cdc6414e39e331f5a1d1be16ccfd6338" alt="卢家特色焖烤(欧洲新城店)" loading="lazy" decoding="async">
+<div class="ph">卢</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">卢家特色焖烤(欧洲新城店)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">36.00</span>
+<span class="td-sub">文化路欧洲新城二期29号楼</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/8ecc0f1aab8452faffa9e0c7ed56f5c5" alt="金运海鲜加工坊" loading="lazy" decoding="async">
+<div class="ph">金</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">金运海鲜加工坊</div>
+<div class="food-type">餐饮服务;中餐厅;海鲜酒楼</div>
+<div class="food-foot"><span class="food-avg">52.00</span>
+<span class="td-sub">桃南百盛时代南门东南60米</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/95a897bcd44a8d84fd62411ac592ff0e" alt="百合春蒸饺" loading="lazy" decoding="async">
+<div class="ph">百</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">百合春蒸饺</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">94.00</span>
+<span class="td-sub">山湖路37号(市林业局北10米)</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/d77f8852f122415e24dacb3bf3a97fbe" alt="九毛九地摊烧烤(新东方家园店)" loading="lazy" decoding="async">
+<div class="ph">九</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">九毛九地摊烧烤(新东方家园店)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">33.00</span>
+<span class="td-sub">新东方家园A区10号楼1号</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/830af272a8919be51e9d57c636627fac" alt="鄂尔多斯烤羊腿" loading="lazy" decoding="async">
+<div class="ph">鄂</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">鄂尔多斯烤羊腿</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">69.00</span>
+<span class="td-sub">学府路254号附近</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/cd889266f742f4a81d0787c69cc56840" alt="福临麻辣烫(勃利店)" loading="lazy" decoding="async">
+<div class="ph">福</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">福临麻辣烫(勃利店)</div>
+<div class="food-type">餐饮服务;中餐厅;特色/地方风味餐厅</div>
+<div class="food-foot"><span class="food-avg">17.00</span>
+<span class="td-sub">学府路翰林苑3号门市</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/6fdb265fc307500d0000003105142448?type=pic" alt="晶焱常来地摊烧烤(七台河总店)" loading="lazy" decoding="async">
+<div class="ph">晶</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">晶焱常来地摊烧烤(七台河总店)</div>
+<div class="food-type">餐饮服务;中餐厅;综合酒楼</div>
+<div class="food-foot"><span class="food-avg">70.00</span>
+<span class="td-sub">风采路118号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/c4fc205f7474123e0000001008274709?type=pic" alt="养生酸汤鱼" loading="lazy" decoding="async">
+<div class="ph">养</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">养生酸汤鱼</div>
+<div class="food-type">餐饮服务;中餐厅;海鲜酒楼</div>
+<div class="food-foot"><span class="food-avg">—</span>
+<span class="td-sub">黎明街51号</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/content_media_external_file_22018_ss__1755765990879_36082577.jpg" alt="老船长海鲜加工店(万宝小区店)" loading="lazy" decoding="async">
+<div class="ph">老</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">老船长海鲜加工店(万宝小区店)</div>
+<div class="food-type">餐饮服务;中餐厅;海鲜酒楼</div>
+<div class="food-foot"><span class="food-avg">57.00</span>
+<span class="td-sub">万宝小区12号楼4号商服</span></div></div></div><div class="food-card reveal" data-d="1">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/82661c2e23c0ba5956b43f060ea4dbd7" alt="玖喜龙虾王" loading="lazy" decoding="async">
+<div class="ph">玖</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">玖喜龙虾王</div>
+<div class="food-type">餐饮服务;中餐厅;海鲜酒楼</div>
+<div class="food-foot"><span class="food-avg">68.00</span>
+<span class="td-sub">怡安小区1号楼</span></div></div></div><div class="food-card reveal" data-d="2">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/807f446de466c64a779758c9763c3303" alt="春来农家饭庄" loading="lazy" decoding="async">
+<div class="ph">春</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">春来农家饭庄</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">49.00</span>
+<span class="td-sub">顺天街59号</span></div></div></div><div class="food-card reveal" data-d="3">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/6d8a4a0d541c3b3a0bdd662ac742e936" alt="宴尚私厨" loading="lazy" decoding="async">
+<div class="ph">宴</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">宴尚私厨</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">97.00</span>
+<span class="td-sub">大同街与通达路交叉口正西方向181米左右</span></div></div></div><div class="food-card reveal" data-d="4">
+<div class="food-img"><img src="https://store.is.autonavi.com/showpic/20260702-ae0d830bacaf1d1074e01e05-ADIv9YULqld8r9YYaLniEz.jpg" alt="正宗春饼店(黑龙江七台河步行街店)" loading="lazy" decoding="async">
+<div class="ph">正</div><span class="rt">★ 4.3</span></div>
+<div class="food-body"><div class="food-name">正宗春饼店(黑龙江七台河步行街店)</div>
+<div class="food-type">餐饮服务;中餐厅;中餐厅</div>
+<div class="food-foot"><span class="food-avg">45.00</span>
+<span class="td-sub">朝阳路13号(新华书店南道口里走50米,李磊</span></div></div></div></div>
+<div class="panel reveal" style="margin-top:16px"><div class="tbl-wrap"><table class="dt"><thead><tr><th>标记</th><th>店名</th><th>类型</th><th>评分</th><th>人均</th><th>地址</th></tr></thead><tbody><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">温馨龟锅总店</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.7</b></td><td style="color:var(--orange);font-weight:600">46.00</td><td>大同街27号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">温馨龟锅(北岸三号道店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.7</b></td><td style="color:var(--orange);font-weight:600">44.00</td><td>西环北路与乐业街交叉口西南320米</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">滨尚小镇北京梨木烤鸭</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">120.00</td><td>滨尚雅居滨尚小镇</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">老独一处羊汤馆(大同街店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">29.00</td><td>大同街116号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">浩泽大碗麻辣烫(黑龙江七台河步行街店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">18.00</td><td>温州大街115号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">福临大碗麻辣烫步行街总店</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">21.00</td><td>温州大街115号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">勃利专业热面(学府路店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">12.00</td><td>学府路与吉祥街交叉口西南40米</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">老田热面(副食店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">12.00</td><td>明华路29号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">勃利夜市</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.6</b></td><td style="color:var(--orange);font-weight:600">19.00</td><td>新华路与南郊街交叉口西南260米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">老城北木炭火锅</td><td class="td-sub">餐饮服务;中餐厅;火锅店</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">63.00</td><td>双叶大道欣源小区5号楼道口左侧商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">湘李湖南厨房</td><td class="td-sub">餐饮服务;中餐厅;湖南菜(湘菜)</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">67.00</td><td>同进街与同仁路交叉口东180米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">香君狗肉馆(晨曦路店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">42.00</td><td>晨曦路10号(金星花园东门北50米)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">龙江美食</td><td class="td-sub">餐饮服务;中餐厅;综合酒楼</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">32.00</td><td>景丰路86号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">百年木炭火锅(景丰路店)</td><td class="td-sub">餐饮服务;中餐厅;火锅店</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">73.00</td><td>景丰路111号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">口口香龟锅美食店(总)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">58.00</td><td>晨曦路六号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">稻香村农家院(吉祥街店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">49.00</td><td>南大直路126号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">双福美食城</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">21.00</td><td>北岸新城小区S-24号楼2-3号商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">小丽地摊</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">68.00</td><td>康华街171号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">老妈粥铺(彩云街)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">10.00</td><td>桃南街道朝阳广场</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">沸腾水煮串(体育场总店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">24.00</td><td>旭日街职高楼半地下</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">管红热面炸串(七星花园店)</td><td class="td-sub">餐饮服务;快餐厅;快餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">19.00</td><td>七星花园A区步行街</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">锦林蒸饺馆(美食文化街店)</td><td class="td-sub">餐饮服务;快餐厅;快餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">24.00</td><td>鑫源帝景西门门市</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">东方快餐(北岸店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">23.00</td><td>北岸新城108号楼3号商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">清真德月楼</td><td class="td-sub">餐饮服务;中餐厅;清真菜馆</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">55.00</td><td>运销处小区院内</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">杨胖子双城杀猪菜</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">37.00</td><td>友谊商务会馆西侧</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">古往今来寻味小馆</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">29.00</td><td>霞光路180号(太白小区北1门东160米)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">山里红铁锅炖(东安街店)</td><td class="td-sub">餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">64.00</td><td>东安街与通达路交叉口西100米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">老何二婶家铁锅炖大鹅</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">70.00</td><td>金水湾小区67号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">和顺居酒店(北岸新城店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店｜餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">50.00</td><td>北岸新城三号道</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">瑞祥肥牛火锅</td><td class="td-sub">餐饮服务;中餐厅;火锅店</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">53.00</td><td>桃南街</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">旮旯烧烤(景丰路店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">35.00</td><td>景丰路250号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">居家酒楼(荔园路店)</td><td class="td-sub">餐饮服务;中餐厅;综合酒楼</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">56.00</td><td>荔园路同仁新居9号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">香满楼酒楼(怡安小区店)</td><td class="td-sub">餐饮服务;中餐厅;综合酒楼</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">43.00</td><td>桃南街怡安小区20号楼B楼1号商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">富强羊汤馆</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">21.00</td><td>富强小区36号楼东侧平房三号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">许微小舍私厨馆</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">—</td><td>育才苑二建A3号楼80后烧烤隔壁</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">大红象老太太烤冷面正店</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">14.00</td><td>北京同仁堂旁胡同内直走</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">龙凤炖菜馆(军官小区店)</td><td class="td-sub">餐饮服务;中餐厅;东北菜</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">24.00</td><td>秀峰路75号军官小区商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">百年木炭火锅(金水湾店)</td><td class="td-sub">餐饮服务;中餐厅;火锅店</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">36.00</td><td>桃南街道奋斗路18号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">木兰小吃狗肉馆</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">45.00</td><td>世纪新村C区1号楼107宏祥食杂店</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">冬梅小吃(珍珠巷)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">21.00</td><td>松林小区8号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">品味笨锅炖(银泉新都店)</td><td class="td-sub">餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">56.00</td><td>银泉小区1号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">60年代老菜馆</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">88.00</td><td>文华路138号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">和记和平饭店</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">23.00</td><td>万宝小区16号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">光大夜市</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.4</b></td><td style="color:var(--orange);font-weight:600">19.00</td><td>南大直路与南郊街交叉口南260米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">七台河新兴区清真福来顺</td><td class="td-sub">餐饮服务;中餐厅;清真菜馆</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">42.00</td><td>正阳街897号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">温馨龟锅(新东方店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">56.00</td><td>新东方家园a区10号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">温馨龟锅(七市第一店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">31.00</td><td>奋斗路223号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">卢家特色焖烤(欧洲新城店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">36.00</td><td>文化路欧洲新城二期29号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">金运海鲜加工坊</td><td class="td-sub">餐饮服务;中餐厅;海鲜酒楼</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">52.00</td><td>桃南百盛时代南门东南60米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">百合春蒸饺</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">94.00</td><td>山湖路37号(市林业局北10米)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">九毛九地摊烧烤(新东方家园店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">33.00</td><td>新东方家园A区10号楼1号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">鄂尔多斯烤羊腿</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">69.00</td><td>学府路254号附近</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">福临麻辣烫(勃利店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">17.00</td><td>学府路翰林苑3号门市</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">晶焱常来地摊烧烤(七台河总店)</td><td class="td-sub">餐饮服务;中餐厅;综合酒楼</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">70.00</td><td>风采路118号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">养生酸汤鱼</td><td class="td-sub">餐饮服务;中餐厅;海鲜酒楼</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">—</td><td>黎明街51号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">老船长海鲜加工店(万宝小区店)</td><td class="td-sub">餐饮服务;中餐厅;海鲜酒楼</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">57.00</td><td>万宝小区12号楼4号商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">玖喜龙虾王</td><td class="td-sub">餐饮服务;中餐厅;海鲜酒楼</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">68.00</td><td>怡安小区1号楼</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">春来农家饭庄</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">49.00</td><td>顺天街59号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">小龙江美食</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">29.00</td><td>环城路27号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">宴尚私厨</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">97.00</td><td>大同街与通达路交叉口正西方向181米左右</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">正宗春饼店(黑龙江七台河步行街店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">45.00</td><td>朝阳路13号(新华书店南道口里走50米,李磊牙所旁)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">穆斯林(总店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">33.00</td><td>七台河市热力总公司怡安分公司朝阳供热管理站东门南110米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">肯德基(旭日店)</td><td class="td-sub">餐饮服务;快餐厅;肯德基</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">31.00</td><td>桃山区文化广场</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">东方快餐(大同街店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">15.00</td><td>大同街71号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">百世麦香手工面条七台河店</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">26.00</td><td>大同街225号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">小厨娘铁锅炖(幸福里总店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">34.00</td><td>通达路新东方幸福里小区8号楼8-1商服</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">谢府饺子酒</td><td class="td-sub">餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">41.00</td><td>勃利镇顺天街</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">王家大院(桃山区朝阳广场店)</td><td class="td-sub">餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">59.00</td><td>风采路245号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">大勇紫竹林餐厅</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">45.00</td><td>东正小区北门</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">渔福记(欧洲新城2期店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">118.00</td><td>欧洲新城35号楼101号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">君丽园美食城</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">41.00</td><td>通达路与大同街交叉口西北80米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">刘二小吃部</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">17.00</td><td>风采路与光明街交叉口北40米</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">合众不二馄饨酒馆</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">18.00</td><td>桃北街道霞光街147号育才苑</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">酱肉小炒</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">13.00</td><td>龙泉花园住宅小区西门南50米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">小牛烧烤城</td><td class="td-sub">餐饮服务;中餐厅;清真菜馆</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">61.00</td><td>风采路朝阳广场南出口</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">辣贝壳烧烤</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">48.00</td><td>霞光街与晨光巷交叉口北50米</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">茄子河区锦江阁饭店(松雷商贸城店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">32.00</td><td>杨扬街421号松雷商贸城F1层</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">面之缘清真兰州牛肉拉面(七台河分店)</td><td class="td-sub">餐饮服务;中餐厅;清真菜馆</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">31.00</td><td>兴乐社区服务站七星花园B区3号楼中国兰州牛肉拉面</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">温馨龟锅(同进街店)</td><td class="td-sub">餐饮服务;中餐厅;中餐厅</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">41.00</td><td>同进街143号学府华庭9号楼3号车库</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">张记烤羊腿(桃山店)</td><td class="td-sub">餐饮服务;中餐厅;特色/地方风味餐厅</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">46.00</td><td>朝阳小区三组团C栋1层9号</td></tr></tbody></table></div>
+<p class="p-desc" style="margin-top:10px">全量 80 家，含图片的已在上方卡片展示（前 60 张）。</p></div></section>
+
+<section class="sec-block" id="sec-xiaocan">
+<div class="sec-head reveal"><div class="sec-label">Local Gems</div><h2 class="sec-title">苍蝇馆 / 小店候选</h2>
+<p class="sec-desc">不凭空判定：命中「苍蝇馆」关键词或店名含小馆/排挡/家常/私房/土菜/大排档等小店语义方列入。</p></div>
+<div class="panel reveal"><div class="tbl-wrap"><table class="dt"><thead><tr><th>店名</th><th>来源</th><th>评分</th><th>人均</th><th>地址</th><th>备注</th></tr></thead><tbody><tr><td class="td-name">稻香村农家院(吉祥街店)</td><td>店名小店语义</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">49.00</td><td>南大直路126号</td><td></td></tr><tr><td class="td-name">古往今来寻味小馆</td><td>店名小店语义</td><td><b>4.5</b></td><td style="color:var(--orange);font-weight:600">29.00</td><td>霞光路180号(太白小区北1门东160米)</td><td></td></tr><tr><td class="td-name">春来农家饭庄</td><td>店名小店语义</td><td><b>4.3</b></td><td style="color:var(--orange);font-weight:600">49.00</td><td>顺天街59号</td><td></td></tr><tr><td class="td-name">鲜品汇家常菜(北岸新城店)</td><td>店名小店语义</td><td><b>4.2</b></td><td style="color:var(--orange);font-weight:600">23.00</td><td>兴和社区服务站北岸新城319号楼</td><td></td></tr><tr><td class="td-name">张家小馆</td><td>店名小店语义</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">59.00</td><td>桃南街怡安花园小区20号B楼2号</td><td></td></tr><tr><td class="td-name">迪姐小海鲜烧烤店</td><td>店名小店语义</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">66.00</td><td>光明街437号</td><td></td></tr><tr><td class="td-name">利广聚家常菜</td><td>店名小店语义</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">33.00</td><td>银泉小区一号楼</td><td></td></tr><tr><td class="td-name">源丰家常菜(七星花园小区店)</td><td>店名小店语义</td><td><b>4.1</b></td><td style="color:var(--orange);font-weight:600">33.00</td><td>兴乐社区服务站环城路七星花园B区41号楼</td><td></td></tr><tr><td class="td-name">红运烧烤店</td><td>店名小店语义</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">103.00</td><td>教师公寓28路终点站对面</td><td></td></tr><tr><td class="td-name">广顺家常菜(万宝小区店)</td><td>店名小店语义</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">23.00</td><td>便民街与百合巷交叉口西100米</td><td></td></tr><tr><td class="td-name">胜利园家常菜(湖东家园A区店)</td><td>店名小店语义</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">68.00</td><td>东风路湖东家园A区</td><td></td></tr><tr><td class="td-name">彭记家常菜馆(北岸新城店)</td><td>店名小店语义</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">41.00</td><td>祥和街与兴城路交叉口西南160米</td><td></td></tr><tr><td class="td-name">啥都行铁板串大排档</td><td>店名小店语义</td><td><b>4.0</b></td><td style="color:var(--orange);font-weight:600">23.00</td><td>城西街19号</td><td></td></tr><tr><td class="td-name">喜之艳大碗鱼家常菜</td><td>店名小店语义</td><td><b>3.9</b></td><td style="color:var(--orange);font-weight:600">41.00</td><td>吉安巷与大同街交叉口西南60米</td><td></td></tr><tr><td class="td-name">乡缘小镇家常菜馆</td><td>店名小店语义</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">23.00</td><td>吉祥巷与大同街交叉口东南120米</td><td></td></tr><tr><td class="td-name">酒江锅烙私房菜</td><td>店名小店语义</td><td><b>3.8</b></td><td style="color:var(--orange);font-weight:600">32.00</td><td>九九嘉园北门西60米</td><td></td></tr><tr><td class="td-name">香春园家常菜馆</td><td>店名小店语义</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">24.00</td><td>兴华街3号</td><td></td></tr><tr><td class="td-name">莹丽水饺家常菜(惠民小区店)</td><td>店名小店语义</td><td><b>3.7</b></td><td style="color:var(--orange);font-weight:600">54.00</td><td>惠民小区公建商服第六户</td><td></td></tr><tr><td class="td-name">王姐砂锅油饼家常菜</td><td>店名小店语义</td><td><b>3.6</b></td><td style="color:var(--orange);font-weight:600">—</td><td>银泉新都13号楼二单元一楼</td><td></td></tr><tr><td class="td-name">老郎面馆家常菜</td><td>店名小店语义</td><td><b>3.5</b></td><td style="color:var(--orange);font-weight:600">17.00</td><td>南大直路</td><td>评分 3.5 超出苍蝇馆常见区间，仅登记不推荐</td></tr><tr><td class="td-name">抖街大排档</td><td>店名小店语义</td><td><b>3.5</b></td><td style="color:var(--orange);font-weight:600">—</td><td>北岸新城84号楼车库12.13</td><td>评分 3.5 超出苍蝇馆常见区间，仅登记不推荐</td></tr><tr><td class="td-name">安吉家常菜</td><td>店名小店语义</td><td><b>3.4</b></td><td style="color:var(--orange);font-weight:600">—</td><td>富强街道铁东小区15号楼</td><td>评分 3.4 超出苍蝇馆常见区间，仅登记不推荐</td></tr><tr><td class="td-name">新建薄利家常菜(万宝小区店)</td><td>店名小店语义</td><td><b>3.2</b></td><td style="color:var(--orange);font-weight:600">—</td><td>桃南街道万宝小区43号楼S010</td><td>评分 3.2 超出苍蝇馆常见区间，仅登记不推荐</td></tr><tr><td class="td-name">清欣私房美食</td><td>店名小店语义</td><td><b>1.6</b></td><td style="color:var(--orange);font-weight:600">—</td><td>东进街与富丽巷交叉口西南160米</td><td>评分 1.6 超出苍蝇馆常见区间，仅登记不推荐</td></tr><tr><td class="td-name">狗肉大排档</td><td>店名小店语义</td><td><b>1.4</b></td><td style="color:var(--orange);font-weight:600">28.00</td><td>宏伟镇岚峰村村民委员会北侧70米</td><td>评分 1.4 超出苍蝇馆常见区间，仅登记不推荐</td></tr></tbody></table></div></div></section>
+
+<section class="sec-block" id="sec-spec">
+<div class="sec-head reveal"><div class="sec-label">Specialties</div><h2 class="sec-title">知名特产</h2></div>
+<div class="panel reveal"><div class="tbl-wrap"><table class="dt"><thead><tr><th>标记</th><th>名称</th><th>类型</th><th>评分</th><th>地址</th></tr></thead><tbody><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">勃利县绿森林山特产店</td><td class="td-sub">购物服务;专卖店;土特产专卖店</td><td><b>3.9</b></td><td>向阳街7号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">蓝靛果专卖</td><td class="td-sub">购物服务;购物相关场所;购物相关场所</td><td><b>3.7</b></td><td>长安街水务局一楼门市(广视对面)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">山海关老酱铺桃山店</td><td class="td-sub">购物服务;综合市场;农副产品市场</td><td><b>3.5</b></td><td>教师公寓2号楼2单元101</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">东北特产(旭日街店)</td><td class="td-sub">购物服务;专卖店;土特产专卖店</td><td><b>3.5</b></td><td>旭日街296号</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">村把头土特产批发</td><td class="td-sub">购物服务;专卖店;土特产专卖店</td><td><b>3.4</b></td><td>杨杨大街326号村把头土特产批发</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">黑土优品特产</td><td class="td-sub">购物服务;购物相关场所;购物相关场所</td><td><b>3.3</b></td><td>育才苑3号楼(旭日街362号)</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">伊林都山特产七台河店</td><td class="td-sub">购物服务;购物相关场所;购物相关场所</td><td><b>3.3</b></td><td>七台河七彩城西门里老工会家属楼</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">东北土特产.吾家有喜</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>3.3</b></td><td>彩城院内33号楼1单元101室</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">蓝洋乡村振兴特产体验店</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>3.3</b></td><td>翰林苑8号楼商服</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">二场林蛙山产品</td><td class="td-sub">生活服务;生活服务场所;生活服务场所</td><td><b>3.3</b></td><td>南岳一期AS-5-109</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">鑫森林山特产(友谊商厦店)</td><td class="td-sub">医疗保健服务;医药保健销售店;医疗保健用品</td><td><b>3.2</b></td><td>温州大街75号友谊商厦F1层</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">康悦沙棘生活馆</td><td class="td-sub">医疗保健服务;医疗保健服务场所;医疗保健服务场所</td><td><b>3.2</b></td><td>园明路44号</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">朱珠山货铺(育才苑店)</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>3.1</b></td><td>霞光街147号育才苑</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">韩泰电热炕东北土特产</td><td class="td-sub">购物服务;专卖店;专营店｜购物服务;家居建材市场;家居建材市场</td><td><b>3.1</b></td><td>大同街162号烟草公司对面</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">鑫华山货店</td><td class="td-sub">购物服务;综合市场;农副产品市场</td><td><b>3.1</b></td><td>202省道与404乡道交叉口东南160米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">宏宇土特产(北岸新城店)</td><td class="td-sub">购物服务;专卖店;土特产专卖店</td><td><b>3.0</b></td><td>王圆奥东麻将机</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">林蛙山货庄</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>3.0</b></td><td>镇安路与长安街交叉口北100米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">嘉和鹿场产品直销店</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>2.8</b></td><td>杨扬大街797号</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">申龙俄罗斯特产(景丰路店)</td><td class="td-sub">购物服务;购物相关场所;购物相关场所</td><td><b>2.7</b></td><td>景丰路学府家园4号楼商服</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">永久干果东北土特产林蛙店</td><td class="td-sub">购物服务;综合市场;果品市场</td><td><b>2.7</b></td><td>城西街道明华路好日子往万客隆道老青年影院楼对面</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">蜂产品山货行</td><td class="td-sub">购物服务;专卖店;土特产专卖店</td><td><b>2.6</b></td><td>008乡道与西四集街交叉口西北120米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">兴扬云南特产店</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>2.5</b></td><td>北岸新城商贸博览城E区3栋6户</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">乡村振兴特产专卖店</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>2.4</b></td><td>朝阳小区五组团</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">森林特产</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>2.4</b></td><td>尚志路宏伟镇政府东侧约160米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">勃利电商特产展示中心扶贫产品专馆</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>2.3</b></td><td>长安街与明华路交叉口东南40米</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">天桦桦树汁</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>2.1</b></td><td>桃北街道晨曦路金星花园</td></tr><tr><td><span class="mark-bad">❌</span></td><td class="td-name">食山臻山特产</td><td class="td-sub">购物服务;专卖店;专营店</td><td><b>1.6</b></td><td>浩淼烟波北门西南100米</td></tr></tbody></table></div></div></section>
+
+<section class="sec-block" id="sec-assoc">
+<div class="sec-head reveal"><div class="sec-label">Cross</div><h2 class="sec-title">商圈 × 美食</h2>
+<p class="sec-desc">商圈内的美食 = 排他归属于该商圈的餐饮 POI。每家店只属于一个商圈，不跨商圈重复计数，各行数字可相加。</p></div>
+<div class="assoc-block"><h4>山湖路商圈<small>75 家美食 · A 级</small></h4><div class="assoc-tags"><span class="assoc-tag">温馨龟锅总店 <b>4.7</b> <span class="w">¥46</span></span><span class="assoc-tag">浩泽大碗麻辣烫(黑龙江七台河步行街店) <b>4.6</b> <span class="w">¥18</span></span><span class="assoc-tag">福临大碗麻辣烫步行街总店 <b>4.6</b> <span class="w">¥21</span></span><span class="assoc-tag">香君狗肉馆(晨曦路店) <b>4.5</b> <span class="w">¥42</span></span><span class="assoc-tag">龙江美食 <b>4.5</b> <span class="w">¥32</span></span><span class="assoc-tag">百年木炭火锅(景丰路店) <b>4.5</b> <span class="w">¥73</span></span><span class="assoc-tag">口口香龟锅美食店(总) <b>4.5</b> <span class="w">¥58</span></span><span class="assoc-tag">老妈粥铺(彩云街) <b>4.5</b> <span class="w">¥10</span></span><span class="assoc-tag">古往今来寻味小馆 <b>4.5</b> <span class="w">¥29</span></span><span class="assoc-tag">瑞祥肥牛火锅 <b>4.4</b> <span class="w">¥53</span></span></div></div><div class="assoc-block"><h4>康华街商圈<small>32 家美食 · A 级</small></h4><div class="assoc-tags"><span class="assoc-tag">老田热面(副食店) <b>4.6</b> <span class="w">¥12</span></span><span class="assoc-tag">小丽地摊 <b>4.5</b> <span class="w">¥68</span></span><span class="assoc-tag">春来农家饭庄 <b>4.3</b> <span class="w">¥49</span></span><span class="assoc-tag">大勇紫竹林餐厅 <b>4.3</b> <span class="w">¥45</span></span><span class="assoc-tag">酱肉小炒 <b>4.2</b> <span class="w">¥13</span></span><span class="assoc-tag">勃利县昌龙小酒馆(一店) <b>4.2</b> <span class="w">¥32</span></span><span class="assoc-tag">铝盆烤肉店 <b>4.2</b></span><span class="assoc-tag">牛日厨筋头巴脑火锅 <b>4.2</b> <span class="w">¥34</span></span><span class="assoc-tag">絮姐小院老火锅(勃利店) <b>4.2</b> <span class="w">¥47</span></span><span class="assoc-tag">常来地摊涮肚 <b>4.2</b> <span class="w">¥54</span></span></div></div><div class="assoc-block"><h4>乐业街商圈<small>12 家美食 · C 级</small></h4><div class="assoc-tags"><span class="assoc-tag">温馨龟锅(北岸三号道店) <b>4.7</b> <span class="w">¥44</span></span><span class="assoc-tag">双福美食城 <b>4.5</b> <span class="w">¥21</span></span><span class="assoc-tag">东方快餐(北岸店) <b>4.5</b> <span class="w">¥23</span></span><span class="assoc-tag">和顺居酒店(北岸新城店) <b>4.5</b> <span class="w">¥50</span></span><span class="assoc-tag">小龙江美食 <b>4.3</b> <span class="w">¥29</span></span><span class="assoc-tag">源丰家常菜(七星花园小区店) <b>4.1</b> <span class="w">¥33</span></span><span class="assoc-tag">福全家四川火锅店(北岸新城店) <b>4.0</b> <span class="w">¥53</span></span><span class="assoc-tag">彭记家常菜馆(北岸新城店) <b>4.0</b> <span class="w">¥41</span></span><span class="assoc-tag">原新建温州熟食城(北岸新城店) <b>3.7</b> <span class="w">¥44</span></span><span class="assoc-tag">诸葛烤鱼 <b>3.6</b></span></div></div><div class="assoc-block"><h4>杨扬街商圈<small>8 家美食 · C 级</small></h4><div class="assoc-tags"><span class="assoc-tag">茄子河区锦江阁饭店(松雷商贸城店) <b>4.2</b> <span class="w">¥32</span></span><span class="assoc-tag">一爵甲鱼锅 <b>4.2</b> <span class="w">¥41</span></span><span class="assoc-tag">鑫顺园小吃(湖东家园B区店) <b>4.1</b> <span class="w">¥23</span></span><span class="assoc-tag">秀哥烧烤(湖东家园D区店) <b>4.0</b> <span class="w">¥86</span></span><span class="assoc-tag">胜利园家常菜(湖东家园A区店) <b>4.0</b> <span class="w">¥68</span></span><span class="assoc-tag">金学府小吃(惠民小区店) <b>4.0</b> <span class="w">¥26</span></span><span class="assoc-tag">塔斯汀中国汉堡(七台河市茄子河中学店) <b>3.9</b> <span class="w">¥20</span></span><span class="assoc-tag">大围子地摊小烧烤 <b>3.7</b> <span class="w">¥36</span></span></div></div><div class="assoc-block"><h4>昆仑商城<small>6 家美食 · C 级</small></h4><div class="assoc-tags"><span class="assoc-tag">品味笨锅炖(银泉新都店) <b>4.4</b> <span class="w">¥56</span></span><span class="assoc-tag">百合春蒸饺 <b>4.3</b> <span class="w">¥94</span></span><span class="assoc-tag">养生酸汤鱼 <b>4.3</b></span><span class="assoc-tag">利广聚家常菜 <b>4.1</b> <span class="w">¥33</span></span><span class="assoc-tag">家和粥铺(银泉新都店) <b>3.8</b> <span class="w">¥13</span></span><span class="assoc-tag">张鲜记螃蟹店(湖滨小区店) <b>2.7</b></span></div></div></section>
+
+<section class="sec-block" id="sec-hotel">
+<div class="sec-head reveal"><div class="sec-label">Hotels</div><h2 class="sec-title">酒店配套</h2></div>
+<div class="panel reveal"><div class="tbl-wrap"><table class="dt"><thead><tr><th>标记</th><th>名称</th><th>类型</th><th>评分</th><th>地址</th></tr></thead><tbody><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">七台河华闻宾馆</td><td class="td-sub">住宿服务;住宿服务相关;住宿服务相关</td><td><b>4.9</b></td><td>山湖路110号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">七台河姐妹客房</td><td class="td-sub">住宿服务;旅馆招待所;旅馆招待所</td><td><b>4.8</b></td><td>星光巷9号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">勃利来好宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.8</b></td><td>园明路62号(国土资源局斜对面)</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">金源宾馆(大同街)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.7</b></td><td>大同街33号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">天湖时尚宾馆(站前店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.7</b></td><td>中心大街71号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">勃利泰豪宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.6</b></td><td>康华街30号</td></tr><tr><td><span class="mark-ok">✅A-</span></td><td class="td-name">勃利凯莱宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.6</b></td><td>新建路58号</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">和顺居酒店(北岸新城店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店｜餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.5</b></td><td>北岸新城三号道</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">吉祥宾馆(光明街)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.5</b></td><td>朝阳小区三组团1栋6号门牌号104</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">勃利福鑫园宾馆</td><td class="td-sub">住宿服务;旅馆招待所;旅馆招待所</td><td><b>4.5</b></td><td>学府路原光大办公楼4-5层</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">流星电竞宾馆(步行街店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.4</b></td><td>风采路189号(近流星网吧新天地购物广场)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">七台河唯爱主题宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.3</b></td><td>霞光街68号(巴蜀虾旁)</td></tr><tr><td><span class="mark-ok">✅B</span></td><td class="td-name">七台河金窝窝时尚宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.3</b></td><td>富贵园4号楼101</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">七台河鑫升宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.1</b></td><td>步行街与旭日街道口</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">昆仑大酒店</td><td class="td-sub">住宿服务;宾馆酒店;四星级宾馆｜餐饮服务;餐饮相关场所;餐饮相关</td><td><b>4.1</b></td><td>山湖路2号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">七台河365度时尚快捷宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.1</b></td><td>霞光街123号(太白小区北1门旁)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">七台河驿巢商务酒店(北岸新城店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.1</b></td><td>商贸博览城E区99号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">爱尚快捷宾馆(旭日街)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.0</b></td><td>旭日街259号(同仁堂药店东侧)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">七台河富达时尚快捷宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>4.0</b></td><td>杨扬街316号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">喜龙宾馆(明华路店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>3.9</b></td><td>明华路20号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">华悦宾馆(同仁路店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>3.9</b></td><td>同仁路(同仁新居院内)</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">禧龙宾馆(七台河店)</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>3.7</b></td><td>山湖路41号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">欧华时尚宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>3.6</b></td><td>城西街东河沿路0115号</td></tr><tr><td><span class="mark-warn">⚠️</span></td><td class="td-name">七台河新尚快捷宾馆</td><td class="td-sub">住宿服务;宾馆酒店;宾馆酒店</td><td><b>3.5</b></td><td>东进街82号道管公寓2号商铺</td></tr></tbody></table></div></div></section>
+
+</div></main><footer class="footer"><div class="foot-in">
+<div><div class="foot-brand">FUN<i></i></div>
+<p class="foot-desc">全国美食 × 商圈 × 娱乐探索站。覆盖 32 个省级行政区 · 389 座城市，数据驱动你的本地生活。</p></div>
+<div class="foot-col"><h4>站点</h4>
+<a href="../index.html">首页</a><a href="../index.html#cities">探索城市</a>
+<a href="../index.html#map">商圈地图</a><a href="../index.html#districts">商圈评级榜</a></div>
+<div class="foot-col"><h4>数据</h4>
+<a href="../api.html">数据接口</a><a href="../sources.html">数据来源</a>
+<a href="../data.json">data.json</a><a href="../data.md">data.md</a></div>
+</div><div class="foot-base">数据来源：高德地图 Web 服务 POI（restapi.amap.com）· 美团 · 大众点评 · 生成时间 2026-11-06 20:06<br>
+数据仅供探索参考，营业状态与评分以各平台实时信息为准。FUN · fun.worldstip.com</div></footer>
+<script src="../assets/app.js"></script><script id="dm-data" type="application/json">[{"name":"山湖路商圈","grade":"A","t":79.2,"n":198,"r":540,"c":[45.771154,131.010329],"ring":[[131.00078,45.77039],[131.00143,45.76766],[131.0018,45.7665],[131.01426,45.76578],[131.01629,45.76644],[131.01908,45.76796],[131.02069,45.76967],[131.01939,45.77373],[131.01898,45.77495],[131.01165,45.77819],[131.01067,45.77855],[131.00457,45.77386],[131.00126,45.7712]]},{"name":"康华街商圈","grade":"A","t":64.1,"n":77,"r":570,"c":[45.7529,130.576147],"ring":[[130.56669,45.75022],[130.57266,45.74771],[130.5768,45.74762],[130.57895,45.74781],[130.58324,45.75285],[130.58421,45.75418],[130.58416,45.75639],[130.58274,45.75751],[130.57866,45.75916],[130.56933,45.7574],[130.56821,45.75652],[130.567,45.75183]]},{"name":"乐业街商圈","grade":"C","t":44.9,"n":33,"r":390,"c":[45.801891,130.959143],"ring":[[130.95188,45.80045],[130.95916,45.79801],[130.96555,45.80349],[130.95978,45.8057],[130.95673,45.80517],[130.95562,45.80462]]},{"name":"杨扬街商圈","grade":"C","t":42.1,"n":23,"r":430,"c":[45.775938,131.067048],"ring":[[131.06017,45.77598],[131.06656,45.77437],[131.06959,45.77492],[131.07075,45.77586],[131.07195,45.77956],[131.06338,45.77855],[131.06032,45.77776]]},{"name":"昆仑商城","grade":"C","t":35.5,"n":16,"r":270,"c":[45.779491,131.008148],"ring":[[131.00462,45.78142],[131.00606,45.77855],[131.00721,45.77773],[131.00797,45.7778],[131.00964,45.77805],[131.00967,45.77806],[131.01212,45.77978],[131.0106,45.78069],[131.00596,45.78294]]}]</script><script src="../assets/leaflet/leaflet.js"></script><script src="../assets/distmap.js"></script>
+</body></html>

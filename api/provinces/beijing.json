@@ -1,0 +1,164 @@
+{
+ "province": "北京市",
+ "slug": "beijing",
+ "adcode": "11",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 1,
+  "poi": 1199,
+  "districts": 11,
+  "grades": {
+   "S": 0,
+   "A": 2,
+   "B": 7,
+   "C": 2
+  }
+ },
+ "page": "provinces/%E5%8C%97%E4%BA%AC%E5%B8%82.html",
+ "cities": [
+  {
+   "city": "北京市",
+   "adcode": "110100",
+   "poi_total": 1199,
+   "district_count": 11,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 7,
+    "C": 2
+   },
+   "file": "/api/cities/110100.json",
+   "page": "cities/110100.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "肥福排档(北京总店)",
+   "type": "餐饮服务;中餐厅;广东菜(粤菜)",
+   "rating": 4.9,
+   "avg": 235.0,
+   "address": "惠新东街4号国药集团广场3座2楼1号(开车停B1停车场直接上2楼)",
+   "image": "https://store.is.autonavi.com/showpic/O1CN01JejGKG1Iydi4vCuX2_!!3695320962-0-kbcontentapng.jpg",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "胡大饭馆24h(簋街总店)",
+   "type": "餐饮服务;中餐厅;四川菜(川菜)",
+   "rating": 4.9,
+   "avg": 152.0,
+   "address": "东直门内大街233号(北新桥地铁站B东北口步行200米)",
+   "image": "https://store.is.autonavi.com/showpic/b9e2611983d562b217a0de9d1202aceb",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "胡大饭馆(簋街三店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 137.0,
+   "address": "东直门内大街284号",
+   "image": "https://store.is.autonavi.com/showpic/b413743e5aaacdd4dc9f44af8fbf6280",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "ONSITEEE(星火西路店)",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "rating": 4.9,
+   "avg": 61.0,
+   "address": "十里居星火西路16号东院108号",
+   "image": "https://store.is.autonavi.com/showpic/82060ae20261c8450000003124332567?type=pic",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "重庆文记勇盛牛肉面(红庙店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 41.0,
+   "address": "朝阳路红庙北里85号楼底商",
+   "image": "https://store.is.autonavi.com/showpic/444679dad240e6d0ab0c6cb0ffe4328a",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "马艾萨·将台路牛拉",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.9,
+   "avg": 40.0,
+   "address": "东川酒店南门旁",
+   "image": "https://store.is.autonavi.com/showpic/O1CN01xOgI001IydgMpmHgL_!!3695320962-0-kbcontentapng.jpg",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "北京凯瑞御仙都皇家菜博物馆",
+   "type": "餐饮服务;中餐厅;综合酒楼",
+   "rating": 4.8,
+   "avg": 586.0,
+   "address": "西四环北路117号金四季购物中心F1层",
+   "image": "https://store.is.autonavi.com/showpic/37109f16584602f945d66c92ec963cf0",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "北京宴(丰台总店)",
+   "type": "餐饮服务;中餐厅;综合酒楼",
+   "rating": 4.8,
+   "avg": 346.0,
+   "address": "北京城区靛厂路3号楼",
+   "image": "https://store.is.autonavi.com/showpic/e336846cf3b3e6ea80fcdf695bd68377",
+   "mark": "✅A-",
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "王府井大街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.46,
+   "poi": 44,
+   "total": 66.1,
+   "food": 10,
+   "leisure": 25,
+   "kids": 0,
+   "hotel": 0,
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  },
+  {
+   "name": "前门大街商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 4.6,
+   "poi": 21,
+   "total": 62.8,
+   "food": 11,
+   "leisure": 6,
+   "kids": 0,
+   "hotel": 0,
+   "city": "北京市",
+   "province": "北京市",
+   "city_page": "cities/110100.html"
+  }
+ ]
+}

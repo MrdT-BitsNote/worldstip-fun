@@ -1,0 +1,890 @@
+{
+ "province": "海南省",
+ "slug": "hainan",
+ "adcode": "46",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 19,
+  "poi": 9016,
+  "districts": 116,
+  "grades": {
+   "S": 5,
+   "A": 15,
+   "B": 54,
+   "C": 42
+  }
+ },
+ "page": "provinces/%E6%B5%B7%E5%8D%97%E7%9C%81.html",
+ "cities": [
+  {
+   "city": "万宁市",
+   "adcode": "469006",
+   "poi_total": 611,
+   "district_count": 6,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 4,
+    "C": 1
+   },
+   "file": "/api/cities/469006.json",
+   "page": "cities/469006.html"
+  },
+  {
+   "city": "三亚市",
+   "adcode": "460200",
+   "poi_total": 891,
+   "district_count": 17,
+   "grades": {
+    "S": 1,
+    "A": 2,
+    "B": 6,
+    "C": 8
+   },
+   "file": "/api/cities/460200.json",
+   "page": "cities/460200.html"
+  },
+  {
+   "city": "三沙市",
+   "adcode": "460300",
+   "poi_total": 9,
+   "district_count": 0,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0
+   },
+   "file": "/api/cities/460300.json",
+   "page": "cities/460300.html"
+  },
+  {
+   "city": "东方市",
+   "adcode": "469007",
+   "poi_total": 487,
+   "district_count": 8,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 5,
+    "C": 3
+   },
+   "file": "/api/cities/469007.json",
+   "page": "cities/469007.html"
+  },
+  {
+   "city": "临高县",
+   "adcode": "469024",
+   "poi_total": 407,
+   "district_count": 4,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 2
+   },
+   "file": "/api/cities/469024.json",
+   "page": "cities/469024.html"
+  },
+  {
+   "city": "乐东黎族自治县",
+   "adcode": "469027",
+   "poi_total": 510,
+   "district_count": 6,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 2,
+    "C": 3
+   },
+   "file": "/api/cities/469027.json",
+   "page": "cities/469027.html"
+  },
+  {
+   "city": "五指山市",
+   "adcode": "469001",
+   "poi_total": 283,
+   "district_count": 3,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 1
+   },
+   "file": "/api/cities/469001.json",
+   "page": "cities/469001.html"
+  },
+  {
+   "city": "保亭黎族苗族自治县",
+   "adcode": "469029",
+   "poi_total": 305,
+   "district_count": 3,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 1,
+    "C": 2
+   },
+   "file": "/api/cities/469029.json",
+   "page": "cities/469029.html"
+  },
+  {
+   "city": "儋州市",
+   "adcode": "460400",
+   "poi_total": 635,
+   "district_count": 8,
+   "grades": {
+    "S": 1,
+    "A": 0,
+    "B": 3,
+    "C": 4
+   },
+   "file": "/api/cities/460400.json",
+   "page": "cities/460400.html"
+  },
+  {
+   "city": "定安县",
+   "adcode": "469021",
+   "poi_total": 341,
+   "district_count": 3,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 0,
+    "C": 2
+   },
+   "file": "/api/cities/469021.json",
+   "page": "cities/469021.html"
+  },
+  {
+   "city": "屯昌县",
+   "adcode": "469022",
+   "poi_total": 325,
+   "district_count": 3,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 1
+   },
+   "file": "/api/cities/469022.json",
+   "page": "cities/469022.html"
+  },
+  {
+   "city": "文昌市",
+   "adcode": "469005",
+   "poi_total": 575,
+   "district_count": 7,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 5,
+    "C": 1
+   },
+   "file": "/api/cities/469005.json",
+   "page": "cities/469005.html"
+  },
+  {
+   "city": "昌江黎族自治县",
+   "adcode": "469026",
+   "poi_total": 356,
+   "district_count": 4,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 2,
+    "C": 1
+   },
+   "file": "/api/cities/469026.json",
+   "page": "cities/469026.html"
+  },
+  {
+   "city": "海口市",
+   "adcode": "460100",
+   "poi_total": 1029,
+   "district_count": 19,
+   "grades": {
+    "S": 2,
+    "A": 1,
+    "B": 8,
+    "C": 8
+   },
+   "file": "/api/cities/460100.json",
+   "page": "cities/460100.html"
+  },
+  {
+   "city": "澄迈县",
+   "adcode": "469023",
+   "poi_total": 543,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 3,
+    "C": 1
+   },
+   "file": "/api/cities/469023.json",
+   "page": "cities/469023.html"
+  },
+  {
+   "city": "琼中黎族苗族自治县",
+   "adcode": "469030",
+   "poi_total": 271,
+   "district_count": 1,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 0,
+    "C": 1
+   },
+   "file": "/api/cities/469030.json",
+   "page": "cities/469030.html"
+  },
+  {
+   "city": "琼海市",
+   "adcode": "469002",
+   "poi_total": 587,
+   "district_count": 8,
+   "grades": {
+    "S": 1,
+    "A": 1,
+    "B": 4,
+    "C": 2
+   },
+   "file": "/api/cities/469002.json",
+   "page": "cities/469002.html"
+  },
+  {
+   "city": "白沙黎族自治县",
+   "adcode": "469025",
+   "poi_total": 245,
+   "district_count": 2,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 0
+   },
+   "file": "/api/cities/469025.json",
+   "page": "cities/469025.html"
+  },
+  {
+   "city": "陵水黎族自治县",
+   "adcode": "469028",
+   "poi_total": 606,
+   "district_count": 9,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 7,
+    "C": 1
+   },
+   "file": "/api/cities/469028.json",
+   "page": "cities/469028.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "林姐香味海鲜(石梅湾店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.8,
+   "avg": 145.0,
+   "address": "环岛旅游公路石梅湾至神州半岛路段高坡村25号",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_58814_ss__1769058856482_15040096.jpg",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "林姐香味海鲜(海棠湾店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.8,
+   "avg": 175.0,
+   "address": "新居民路98号",
+   "image": "https://store.is.autonavi.com/showpic/e9e59208431ce4666edd140188d171c3",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "琼小琼·糟粕醋海鲜火锅(亚特兰蒂斯店)",
+   "type": "购物服务;综合市场;农副产品市场｜餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 133.0,
+   "address": "海棠北路76号南海印象101综合体",
+   "image": "https://store.is.autonavi.com/showpic/cd3ea540ae22b6550000002732172111?type=pic",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "琼小琼·糟粕醋海鲜火锅(三亚湾店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 130.0,
+   "address": "新城路93号丽禾广场S13商铺",
+   "image": "https://store.is.autonavi.com/showpic/cd3ea540ae22b6550000002732172111?type=pic",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "椰小鸡·椰子鸡(海棠68环球美食街店)",
+   "type": "餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 115.0,
+   "address": "海棠北路海棠68环球美食街椰小鸡-椰子鸡(海棠68环球美食店)",
+   "image": "https://store.is.autonavi.com/showpic/a36668d6c8ca6fc0759c8a5d44c7ee69",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "南门涮肉(三亚首店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 110.0,
+   "address": "临春河路216-5号",
+   "image": "https://store.is.autonavi.com/showpic/c0d134a0b13167d40000001270812410?type=pic",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "创味·民间海南菜(南山店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 72.0,
+   "address": "科技城百泰生物科技园4号楼101",
+   "image": "https://store.is.autonavi.com/showpic/DFF58254_6357_477D_8D25_06D0004EFD43_L0_001_2000_1500_1728811662654_84971375.jpg",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "第一市场夜市",
+   "type": "购物服务;特色商业街;特色商业街｜餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 17.0,
+   "address": "红旗街95号",
+   "image": "https://store.is.autonavi.com/showpic/content_service__1772261666286_12656525_1772261673553_87754506.jpg",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "音乐铺子美食城",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 64.0,
+   "address": "南宝路7-1号第五大道广场地下一层",
+   "image": "https://store.is.autonavi.com/showpic/c7b7bbb1d2abaa47382a6040c7d3ef67",
+   "mark": "✅A-",
+   "city": "海口市",
+   "province": "海南省",
+   "city_page": "cities/460100.html"
+  },
+  {
+   "name": "海大南门夜市",
+   "type": "餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 45.0,
+   "address": "三西路14号",
+   "image": "https://store.is.autonavi.com/showpic/9eabd8486cb98c510000000721408368?type=pic",
+   "mark": "✅A-",
+   "city": "海口市",
+   "province": "海南省",
+   "city_page": "cities/460100.html"
+  },
+  {
+   "name": "魏斯理汉堡",
+   "type": "餐饮服务;快餐厅;快餐厅",
+   "rating": 4.8,
+   "avg": 43.0,
+   "address": "红城湖路118号怡和·湖城大境",
+   "image": "https://store.is.autonavi.com/showpic/b07d936dc8bc78e60000000727820713?type=pic",
+   "mark": "✅A-",
+   "city": "海口市",
+   "province": "海南省",
+   "city_page": "cities/460100.html"
+  },
+  {
+   "name": "海的故事",
+   "type": "餐饮服务;中餐厅;中餐厅｜住宿服务;住宿服务相关;住宿服务相关",
+   "rating": 4.8,
+   "avg": 126.0,
+   "address": "博鳌镇听海路8号",
+   "image": "https://store.is.autonavi.com/showpic/6f5edaf446d0ed92a37042518b474829",
+   "mark": "✅A-",
+   "city": "琼海市",
+   "province": "海南省",
+   "city_page": "cities/469002.html"
+  },
+  {
+   "name": "清水湾东榕环球美食",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 130.0,
+   "address": "清水湾大道雅都荟1-4栋",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_1000007823_ss__1759569201095_23413985.jpg",
+   "mark": "✅A-",
+   "city": "陵水黎族自治县",
+   "province": "海南省",
+   "city_page": "cities/469028.html"
+  },
+  {
+   "name": "原竹棚酸粉王",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 24.0,
+   "address": "椰林北干道2号东线高速路口大转盘西侧内进20米",
+   "image": "https://store.is.autonavi.com/showpic/31fbcf4f6dd0e2631c895f61bcd28f6a",
+   "mark": "✅A-",
+   "city": "陵水黎族自治县",
+   "province": "海南省",
+   "city_page": "cities/469028.html"
+  },
+  {
+   "name": "林姐香味海鲜(日月湾店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.7,
+   "avg": 142.0,
+   "address": "日月湾度假区日岛商业街(午逅SPA楼下,森林客栈附近)",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_58814_ss__1769058856482_15040096.jpg",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "虎婆香草鸭·海南大排档(石梅湾店)",
+   "type": "餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.7,
+   "avg": 129.0,
+   "address": "南桥镇石梅湾九里润街M3号",
+   "image": "https://store.is.autonavi.com/showpic/2f61f0f903b9ff491bd909a62290338b_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "虎婆香草鸭·海南大排档(日月湾店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.7,
+   "avg": 114.0,
+   "address": "日月湾A01号商铺(壹加酒店旁)",
+   "image": "https://store.is.autonavi.com/showpic/2f61f0f903b9ff491bd909a62290338b_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "琼州·糟粕醋火锅(神州半岛店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.7,
+   "avg": 110.0,
+   "address": "东澳镇神州半岛阿拉莫纳RA111-1",
+   "image": "https://store.is.autonavi.com/showpic/145c7429efae374ccafbf1aa253dcafa",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "太琼糟粕醋·海南百年传统火锅(神州半岛店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.7,
+   "avg": 110.0,
+   "address": "东澳镇神州半岛Z4-2-2楼02",
+   "image": "https://store.is.autonavi.com/showpic/a7e873c32cfffdb84474bcf39e8e9b6d_2048_2048_80.jpg",
+   "mark": "✅A",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "嗲嗲的椰子鸡(神州半岛店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.7,
+   "avg": 110.0,
+   "address": "东澳镇神州半岛Z4-2-2楼01",
+   "image": "https://store.is.autonavi.com/showpic/e7e8666258501050917fc6cb7fbe0bbb_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "嗲嗲的椰子鸡(石梅湾店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.7,
+   "avg": 109.0,
+   "address": "海田路与滨海路交叉口西100米",
+   "image": "https://store.is.autonavi.com/showpic/e7e8666258501050917fc6cb7fbe0bbb_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "东海龙宫(大东海店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.7,
+   "avg": 160.0,
+   "address": "大东海旅游区海花路21号(银泰酒店正前方)",
+   "image": "https://store.is.autonavi.com/showpic/6cfaafce41b34def2c350ece8868a597",
+   "mark": "✅A-",
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "港门芳艺露面",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.7,
+   "avg": 9.0,
+   "address": "港门村和平东路133号",
+   "image": "https://store.is.autonavi.com/showpic/4ea61f775120edbd97fe7c2d9b4fe1c6_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "东方市",
+   "province": "海南省",
+   "city_page": "cities/469007.html"
+  },
+  {
+   "name": "正宗老北京炭火锅(五指山店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.7,
+   "avg": 104.0,
+   "address": "福安泰隆酒店后面宿舍楼201-204",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_100000822_1766148730311_89327266.jpg",
+   "mark": "✅A",
+   "city": "五指山市",
+   "province": "海南省",
+   "city_page": "cities/469001.html"
+  },
+  {
+   "name": "儋礼黄皮鸡(美食特产店)",
+   "type": "餐饮服务;中餐厅;特色/地方风味餐厅",
+   "rating": 4.7,
+   "avg": 31.0,
+   "address": "那大镇兴隆路13号",
+   "image": "https://store.is.autonavi.com/showpic/a4ebc40d3c099b150000002349744881?type=pic",
+   "mark": "✅A-",
+   "city": "儋州市",
+   "province": "海南省",
+   "city_page": "cities/460400.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "河西路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.13,
+   "poi": 193,
+   "total": 83.6,
+   "food": 41,
+   "leisure": 74,
+   "kids": 5,
+   "hotel": 10,
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "金龙路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.27,
+   "poi": 126,
+   "total": 78.7,
+   "food": 21,
+   "leisure": 76,
+   "kids": 4,
+   "hotel": 0,
+   "city": "海口市",
+   "province": "海南省",
+   "city_page": "cities/460100.html"
+  },
+  {
+   "name": "海秀东路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.32,
+   "poi": 98,
+   "total": 77.8,
+   "food": 35,
+   "leisure": 18,
+   "kids": 0,
+   "hotel": 6,
+   "city": "海口市",
+   "province": "海南省",
+   "city_page": "cities/460100.html"
+  },
+  {
+   "name": "东风路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.0,
+   "poi": 173,
+   "total": 76.5,
+   "food": 73,
+   "leisure": 48,
+   "kids": 2,
+   "hotel": 4,
+   "city": "琼海市",
+   "province": "海南省",
+   "city_page": "cities/469002.html"
+  },
+  {
+   "name": "文化路商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 3.92,
+   "poi": 168,
+   "total": 75.0,
+   "food": 90,
+   "leisure": 43,
+   "kids": 1,
+   "hotel": 11,
+   "city": "屯昌县",
+   "province": "海南省",
+   "city_page": "cities/469022.html"
+  },
+  {
+   "name": "中兴大街商圈",
+   "grade": "S",
+   "shape": "混合型（含商业街型）",
+   "rating": 4.07,
+   "poi": 119,
+   "total": 75.0,
+   "food": 41,
+   "leisure": 45,
+   "kids": 3,
+   "hotel": 11,
+   "city": "儋州市",
+   "province": "海南省",
+   "city_page": "cities/460400.html"
+  },
+  {
+   "name": "文新路商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 3.88,
+   "poi": 70,
+   "total": 68.0,
+   "food": 23,
+   "leisure": 15,
+   "kids": 1,
+   "hotel": 5,
+   "city": "文昌市",
+   "province": "海南省",
+   "city_page": "cities/469005.html"
+  },
+  {
+   "name": "金海路商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 4.21,
+   "poi": 66,
+   "total": 67.9,
+   "food": 34,
+   "leisure": 19,
+   "kids": 1,
+   "hotel": 3,
+   "city": "琼海市",
+   "province": "海南省",
+   "city_page": "cities/469002.html"
+  },
+  {
+   "name": "文明东路商圈",
+   "grade": "A",
+   "shape": "混合型（含百货商场型）",
+   "rating": 3.99,
+   "poi": 134,
+   "total": 66.9,
+   "food": 71,
+   "leisure": 40,
+   "kids": 1,
+   "hotel": 9,
+   "city": "临高县",
+   "province": "海南省",
+   "city_page": "cities/469024.html"
+  },
+  {
+   "name": "人民中路商圈",
+   "grade": "A",
+   "shape": "百货商场型",
+   "rating": 3.96,
+   "poi": 119,
+   "total": 66.2,
+   "food": 57,
+   "leisure": 31,
+   "kids": 1,
+   "hotel": 13,
+   "city": "定安县",
+   "province": "海南省",
+   "city_page": "cities/469021.html"
+  },
+  {
+   "name": "新风街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.07,
+   "poi": 77,
+   "total": 66.1,
+   "food": 12,
+   "leisure": 52,
+   "kids": 1,
+   "hotel": 3,
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "国兴大道商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.31,
+   "poi": 33,
+   "total": 65.7,
+   "food": 11,
+   "leisure": 10,
+   "kids": 3,
+   "hotel": 1,
+   "city": "海口市",
+   "province": "海南省",
+   "city_page": "cities/460100.html"
+  },
+  {
+   "name": "人民中路商圈",
+   "grade": "A",
+   "shape": "百货商场型",
+   "rating": 4.09,
+   "poi": 82,
+   "total": 63.9,
+   "food": 37,
+   "leisure": 27,
+   "kids": 1,
+   "hotel": 6,
+   "city": "万宁市",
+   "province": "海南省",
+   "city_page": "cities/469006.html"
+  },
+  {
+   "name": "榆亚路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.32,
+   "poi": 43,
+   "total": 63.6,
+   "food": 15,
+   "leisure": 14,
+   "kids": 1,
+   "hotel": 2,
+   "city": "三亚市",
+   "province": "海南省",
+   "city_page": "cities/460200.html"
+  },
+  {
+   "name": "疏港路商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 4.22,
+   "poi": 60,
+   "total": 63.2,
+   "food": 39,
+   "leisure": 12,
+   "kids": 0,
+   "hotel": 0,
+   "city": "澄迈县",
+   "province": "海南省",
+   "city_page": "cities/469023.html"
+  },
+  {
+   "name": "牙叉中路商圈",
+   "grade": "A",
+   "shape": "混合型（含百货商场型）",
+   "rating": 3.73,
+   "poi": 120,
+   "total": 63.0,
+   "food": 70,
+   "leisure": 22,
+   "kids": 0,
+   "hotel": 7,
+   "city": "白沙黎族自治县",
+   "province": "海南省",
+   "city_page": "cities/469025.html"
+  },
+  {
+   "name": "昌江大道商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.84,
+   "poi": 120,
+   "total": 62.9,
+   "food": 60,
+   "leisure": 42,
+   "kids": 0,
+   "hotel": 0,
+   "city": "昌江黎族自治县",
+   "province": "海南省",
+   "city_page": "cities/469026.html"
+  },
+  {
+   "name": "解放路商圈",
+   "grade": "A",
+   "shape": "批发市场型",
+   "rating": 3.76,
+   "poi": 85,
+   "total": 62.8,
+   "food": 45,
+   "leisure": 15,
+   "kids": 0,
+   "hotel": 7,
+   "city": "五指山市",
+   "province": "海南省",
+   "city_page": "cities/469001.html"
+  },
+  {
+   "name": "黄金大道商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 3.91,
+   "poi": 81,
+   "total": 62.6,
+   "food": 39,
+   "leisure": 26,
+   "kids": 0,
+   "hotel": 6,
+   "city": "乐东黎族自治县",
+   "province": "海南省",
+   "city_page": "cities/469027.html"
+  },
+  {
+   "name": "中山路商圈",
+   "grade": "A",
+   "shape": "夜市美食街型",
+   "rating": 4.06,
+   "poi": 55,
+   "total": 62.3,
+   "food": 31,
+   "leisure": 12,
+   "kids": 1,
+   "hotel": 3,
+   "city": "陵水黎族自治县",
+   "province": "海南省",
+   "city_page": "cities/469028.html"
+  }
+ ]
+}

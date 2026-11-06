@@ -1,0 +1,20 @@
+# Cloudflare Pages / Netlify 规则。nginx 部署时本文件不生效，见 deploy/nginx/
+/data.json
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Expose-Headers: Content-Length, Content-Range, ETag
+/data.md
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Expose-Headers: Content-Length, Content-Range, ETag
+/api/*
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Expose-Headers: Content-Length, Content-Range, ETag
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/*.html
+  Cache-Control: public, max-age=3600

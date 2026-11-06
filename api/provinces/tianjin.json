@@ -1,0 +1,149 @@
+{
+ "province": "天津市",
+ "slug": "tianjin",
+ "adcode": "12",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 1,
+  "poi": 1146,
+  "districts": 12,
+  "grades": {
+   "S": 1,
+   "A": 0,
+   "B": 7,
+   "C": 4
+  }
+ },
+ "page": "provinces/%E5%A4%A9%E6%B4%A5%E5%B8%82.html",
+ "cities": [
+  {
+   "city": "天津市",
+   "adcode": "120100",
+   "poi_total": 1146,
+   "district_count": 12,
+   "grades": {
+    "S": 1,
+    "A": 0,
+    "B": 7,
+    "C": 4
+   },
+   "file": "/api/cities/120100.json",
+   "page": "cities/120100.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "津门小红坊海鲜·海胆水饺·烧烤·夜宵(河西店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 186.0,
+   "address": "围堤道55号(西南楼地铁站C口步行250米)",
+   "image": "https://store.is.autonavi.com/showpic/2bdd4a81d5239d0a0000002565080851?type=pic",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "富祥四季餐厅(环湖中路店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 2018.0,
+   "address": "环湖中路18号",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_100002907_1772803682535_93893803.jpg",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "大铁勺新津菜(迎水道店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 207.0,
+   "address": "迎水道138号物美生活广场3层(华苑地铁站B口步行100米)",
+   "image": "https://store.is.autonavi.com/showpic/c1dc87c1c661147cfe85b28018ba0655",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "小红坊海鲜·海胆饺子(河东店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 150.0,
+   "address": "万隆中心大厦西南门西北120米",
+   "image": "https://store.is.autonavi.com/showpic/2bdd4a81d5239d0a0000002565080851?type=pic",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "三个渔夫(水滴店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.8,
+   "avg": 144.0,
+   "address": "凌宾路118号(体育中心地铁站D口步行340米)",
+   "image": "https://store.is.autonavi.com/showpic/A701C843_8EAC_4700_BDDB_A3DDD55674D0_L0_001_1512_201_1767495128294_84877565.jpg",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "三个渔夫·蒸汽海鲜(梅江龙水园店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.8,
+   "avg": 136.0,
+   "address": "珠江道龙水园3号楼7号(友谊南路地铁站B口步行390米)",
+   "image": "https://store.is.autonavi.com/showpic/7f8cc0234e3e7d40b1cea33b996a9db7_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "喀秋莎·俄罗斯餐厅(河东六纬路店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 120.0,
+   "address": "六纬路236号环宇天地4号楼B座",
+   "image": "https://store.is.autonavi.com/showpic/2836b6b64d59d5c30000002534690269?type=pic",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  },
+  {
+   "name": "宝德福海鲜·天津菜",
+   "type": "餐饮服务;中餐厅;综合酒楼",
+   "rating": 4.8,
+   "avg": 110.0,
+   "address": "双桥河镇茶金路18号",
+   "image": "https://store.is.autonavi.com/showpic/1c70371c2505cfafc388cd51f86e1bd6",
+   "mark": "✅A-",
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "南京路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.44,
+   "poi": 109,
+   "total": 72.2,
+   "food": 26,
+   "leisure": 58,
+   "kids": 0,
+   "hotel": 1,
+   "city": "天津市",
+   "province": "天津市",
+   "city_page": "cities/120100.html"
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "province": "重庆市",
+ "slug": "chongqing",
+ "adcode": "50",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 1,
+  "poi": 1179,
+  "districts": 11,
+  "grades": {
+   "S": 2,
+   "A": 1,
+   "B": 4,
+   "C": 4
+  }
+ },
+ "page": "provinces/%E9%87%8D%E5%BA%86%E5%B8%82.html",
+ "cities": [
+  {
+   "city": "重庆市",
+   "adcode": "500100",
+   "poi_total": 1179,
+   "district_count": 11,
+   "grades": {
+    "S": 2,
+    "A": 1,
+    "B": 4,
+    "C": 4
+   },
+   "file": "/api/cities/500100.json",
+   "page": "cities/500100.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "周君记·火锅馆",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 5.0,
+   "avg": null,
+   "address": "华龙大道与华成路交叉口西北380米",
+   "image": "https://store.is.autonavi.com/showpic/7a7668ed06896a86f5ce0ad045918ac1",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "枇杷园食为鲜火锅店(南山总店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 131.0,
+   "address": "南山街道金竹村龙井榜社",
+   "image": "https://store.is.autonavi.com/showpic/dc1deb89d672cee2c1e0e78b8d84b50f",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "老甘家小龙虾江湖菜(洋河地标总店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 105.0,
+   "address": "洋河中路91号(望海花市与邦兴花园十字路口建设银行对面)",
+   "image": "https://store.is.autonavi.com/showpic/5ee50346eb42adc13777172a3b961c02",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "老甘家小龙虾江湖菜(光环店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 97.0,
+   "address": "金州大道106号北大资源·博雅",
+   "image": "https://store.is.autonavi.com/showpic/5ee50346eb42adc13777172a3b961c02",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "老甘家小龙虾江湖菜(黄泥塝地标店)",
+   "type": "餐饮服务;中餐厅;海鲜酒楼",
+   "rating": 4.8,
+   "avg": 95.0,
+   "address": "黄泥磅黄龙路35号附3号(黄泥塝地铁站3B口步行290米)",
+   "image": "https://store.is.autonavi.com/showpic/5ee50346eb42adc13777172a3b961c02",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "樊三哥大排档(总店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 76.0,
+   "address": "龙山街道新南支路2号附10号祈年悦城A幢1一1",
+   "image": "https://store.is.autonavi.com/showpic/dff045307cb924190000003026954504?type=pic",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "年白老火锅总店",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 73.0,
+   "address": "铜元局街道芭蕉湾71号",
+   "image": "https://store.is.autonavi.com/showpic/e917b4a02aa535c20000000980518849?type=pic",
+   "mark": "✅A-",
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "八一路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.42,
+   "poi": 103,
+   "total": 79.8,
+   "food": 44,
+   "leisure": 21,
+   "kids": 0,
+   "hotel": 3,
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "北城天街商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.39,
+   "poi": 156,
+   "total": 78.1,
+   "food": 15,
+   "leisure": 101,
+   "kids": 1,
+   "hotel": 2,
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  },
+  {
+   "name": "龙湖重庆时代天街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.47,
+   "poi": 32,
+   "total": 64.0,
+   "food": 7,
+   "leisure": 14,
+   "kids": 1,
+   "hotel": 2,
+   "city": "重庆市",
+   "province": "重庆市",
+   "city_page": "cities/500100.html"
+  }
+ ]
+}

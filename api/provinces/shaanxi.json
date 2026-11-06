@@ -1,0 +1,542 @@
+{
+ "province": "陕西省",
+ "slug": "shaanxi",
+ "adcode": "61",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 10,
+  "poi": 9049,
+  "districts": 171,
+  "grades": {
+   "S": 8,
+   "A": 10,
+   "B": 51,
+   "C": 102
+  }
+ },
+ "page": "provinces/%E9%99%95%E8%A5%BF%E7%9C%81.html",
+ "cities": [
+  {
+   "city": "咸阳市",
+   "adcode": "610400",
+   "poi_total": 1052,
+   "district_count": 20,
+   "grades": {
+    "S": 1,
+    "A": 1,
+    "B": 9,
+    "C": 9
+   },
+   "file": "/api/cities/610400.json",
+   "page": "cities/610400.html"
+  },
+  {
+   "city": "商洛市",
+   "adcode": "611000",
+   "poi_total": 757,
+   "district_count": 12,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 6,
+    "C": 5
+   },
+   "file": "/api/cities/611000.json",
+   "page": "cities/611000.html"
+  },
+  {
+   "city": "安康市",
+   "adcode": "610900",
+   "poi_total": 858,
+   "district_count": 16,
+   "grades": {
+    "S": 1,
+    "A": 0,
+    "B": 6,
+    "C": 9
+   },
+   "file": "/api/cities/610900.json",
+   "page": "cities/610900.html"
+  },
+  {
+   "city": "宝鸡市",
+   "adcode": "610300",
+   "poi_total": 955,
+   "district_count": 21,
+   "grades": {
+    "S": 1,
+    "A": 2,
+    "B": 2,
+    "C": 16
+   },
+   "file": "/api/cities/610300.json",
+   "page": "cities/610300.html"
+  },
+  {
+   "city": "延安市",
+   "adcode": "610600",
+   "poi_total": 844,
+   "district_count": 13,
+   "grades": {
+    "S": 1,
+    "A": 1,
+    "B": 4,
+    "C": 7
+   },
+   "file": "/api/cities/610600.json",
+   "page": "cities/610600.html"
+  },
+  {
+   "city": "榆林市",
+   "adcode": "610800",
+   "poi_total": 949,
+   "district_count": 23,
+   "grades": {
+    "S": 1,
+    "A": 0,
+    "B": 3,
+    "C": 19
+   },
+   "file": "/api/cities/610800.json",
+   "page": "cities/610800.html"
+  },
+  {
+   "city": "汉中市",
+   "adcode": "610700",
+   "poi_total": 938,
+   "district_count": 21,
+   "grades": {
+    "S": 1,
+    "A": 0,
+    "B": 7,
+    "C": 13
+   },
+   "file": "/api/cities/610700.json",
+   "page": "cities/610700.html"
+  },
+  {
+   "city": "渭南市",
+   "adcode": "610500",
+   "poi_total": 953,
+   "district_count": 20,
+   "grades": {
+    "S": 1,
+    "A": 0,
+    "B": 7,
+    "C": 12
+   },
+   "file": "/api/cities/610500.json",
+   "page": "cities/610500.html"
+  },
+  {
+   "city": "西安市",
+   "adcode": "610100",
+   "poi_total": 1178,
+   "district_count": 15,
+   "grades": {
+    "S": 1,
+    "A": 3,
+    "B": 5,
+    "C": 6
+   },
+   "file": "/api/cities/610100.json",
+   "page": "cities/610100.html"
+  },
+  {
+   "city": "铜川市",
+   "adcode": "610200",
+   "poi_total": 565,
+   "district_count": 10,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 2,
+    "C": 6
+   },
+   "file": "/api/cities/610200.json",
+   "page": "cities/610200.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "乡厨农家(后柳镇店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": null,
+   "address": "后柳镇永红村三组",
+   "image": "https://store.is.autonavi.com/showpic/1ea3be631f13b9c87568f54444af83c2",
+   "mark": "✅A",
+   "city": "安康市",
+   "province": "陕西省",
+   "city_page": "cities/610900.html"
+  },
+  {
+   "name": "铭家家宴·海鲜水饺·青岛菜·院子餐厅(高新店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 123.0,
+   "address": "铭家家宴·海鲜水饺·青岛菜·院子餐厅高新店东门西北50米",
+   "image": "https://store.is.autonavi.com/showpic/a208095a56d3f55b6c81dd35aeb9fc41",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "袁山山重庆火锅(丈八北路店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 93.0,
+   "address": "丈八北路3号",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_images_media_100015571_1769672850402_60908328.jpg",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "袁山山重庆火锅(大明宫店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 91.0,
+   "address": "太华北路与凤城一路交叉口北180米",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_images_media_100015571_1769672850402_60908328.jpg",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "金昆阁·铜炉涮肉(曲江店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 87.0,
+   "address": "翠华路369号铂仁国际中心A座F2层",
+   "image": "https://store.is.autonavi.com/showpic/1828d7ac9cdff3810000002739966717?type=pic",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "二火锅(西安店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.8,
+   "avg": 83.0,
+   "address": "长安路街道南关正街101号伟世佳大厦1层",
+   "image": "https://store.is.autonavi.com/showpic/content_service__1773216624595_63360027_1773216626655_00616118.jpg",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "清真刚刚烤肉(芙蓉街店)",
+   "type": "餐饮服务;中餐厅;特色/地方风味餐厅",
+   "rating": 4.8,
+   "avg": 80.0,
+   "address": "芙蓉街中段",
+   "image": "https://store.is.autonavi.com/showpic/f73da148ee367010b8c79d81c289b013",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "张玲麻辣烫(李家村总店)",
+   "type": "餐饮服务;中餐厅;特色/地方风味餐厅",
+   "rating": 4.8,
+   "avg": 72.0,
+   "address": "雁塔北路69号时亿国际广场",
+   "image": "https://store.is.autonavi.com/showpic/e5a988f9aeafe33b0000008881826146?type=pic",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "魏斯理汉堡(紫薇风尚店)",
+   "type": "餐饮服务;快餐厅;快餐厅",
+   "rating": 4.8,
+   "avg": 40.0,
+   "address": "凤城五路260号(未央大道与凤城五路交界处向东400米紫薇·风尚)",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_1000096921_ss__1773891105695_42826895.jpg",
+   "mark": "✅A-",
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "兴安中路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.02,
+   "poi": 229,
+   "total": 83.0,
+   "food": 62,
+   "leisure": 104,
+   "kids": 3,
+   "hotel": 10,
+   "city": "安康市",
+   "province": "陕西省",
+   "city_page": "cities/610900.html"
+  },
+  {
+   "name": "天汉大道商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.07,
+   "poi": 196,
+   "total": 82.7,
+   "food": 48,
+   "leisure": 87,
+   "kids": 4,
+   "hotel": 8,
+   "city": "汉中市",
+   "province": "陕西省",
+   "city_page": "cities/610700.html"
+  },
+  {
+   "name": "南大街商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.47,
+   "poi": 108,
+   "total": 81.0,
+   "food": 32,
+   "leisure": 46,
+   "kids": 0,
+   "hotel": 3,
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "长城南路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.07,
+   "poi": 152,
+   "total": 80.9,
+   "food": 25,
+   "leisure": 70,
+   "kids": 3,
+   "hotel": 7,
+   "city": "榆林市",
+   "province": "陕西省",
+   "city_page": "cities/610800.html"
+  },
+  {
+   "name": "中心街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.94,
+   "poi": 118,
+   "total": 76.9,
+   "food": 29,
+   "leisure": 44,
+   "kids": 4,
+   "hotel": 4,
+   "city": "延安市",
+   "province": "陕西省",
+   "city_page": "cities/610600.html"
+  },
+  {
+   "name": "正阳路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 3.94,
+   "poi": 111,
+   "total": 76.5,
+   "food": 36,
+   "leisure": 46,
+   "kids": 4,
+   "hotel": 5,
+   "city": "铜川市",
+   "province": "陕西省",
+   "city_page": "cities/610200.html"
+  },
+  {
+   "name": "前进路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.12,
+   "poi": 125,
+   "total": 76.2,
+   "food": 27,
+   "leisure": 50,
+   "kids": 3,
+   "hotel": 5,
+   "city": "渭南市",
+   "province": "陕西省",
+   "city_page": "cities/610500.html"
+  },
+  {
+   "name": "轩辕大道商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.09,
+   "poi": 86,
+   "total": 73.0,
+   "food": 13,
+   "leisure": 53,
+   "kids": 4,
+   "hotel": 0,
+   "city": "延安市",
+   "province": "陕西省",
+   "city_page": "cities/610600.html"
+  },
+  {
+   "name": "经二路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.0,
+   "poi": 104,
+   "total": 72.9,
+   "food": 33,
+   "leisure": 28,
+   "kids": 4,
+   "hotel": 8,
+   "city": "宝鸡市",
+   "province": "陕西省",
+   "city_page": "cities/610300.html"
+  },
+  {
+   "name": "人民中路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.11,
+   "poi": 142,
+   "total": 72.8,
+   "food": 23,
+   "leisure": 90,
+   "kids": 5,
+   "hotel": 1,
+   "city": "咸阳市",
+   "province": "陕西省",
+   "city_page": "cities/610400.html"
+  },
+  {
+   "name": "高新大道商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.05,
+   "poi": 131,
+   "total": 71.2,
+   "food": 30,
+   "leisure": 79,
+   "kids": 1,
+   "hotel": 0,
+   "city": "宝鸡市",
+   "province": "陕西省",
+   "city_page": "cities/610300.html"
+  },
+  {
+   "name": "工农路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.92,
+   "poi": 136,
+   "total": 69.3,
+   "food": 45,
+   "leisure": 61,
+   "kids": 2,
+   "hotel": 2,
+   "city": "商洛市",
+   "province": "陕西省",
+   "city_page": "cities/611000.html"
+  },
+  {
+   "name": "解放路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.39,
+   "poi": 28,
+   "total": 65.9,
+   "food": 3,
+   "leisure": 11,
+   "kids": 0,
+   "hotel": 4,
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "凤城七路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 4.39,
+   "poi": 44,
+   "total": 64.9,
+   "food": 3,
+   "leisure": 34,
+   "kids": 0,
+   "hotel": 0,
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  },
+  {
+   "name": "人民东路商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 3.97,
+   "poi": 53,
+   "total": 63.4,
+   "food": 11,
+   "leisure": 24,
+   "kids": 2,
+   "hotel": 0,
+   "city": "咸阳市",
+   "province": "陕西省",
+   "city_page": "cities/610400.html"
+  },
+  {
+   "name": "金台大道商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.06,
+   "poi": 40,
+   "total": 62.9,
+   "food": 10,
+   "leisure": 15,
+   "kids": 3,
+   "hotel": 1,
+   "city": "宝鸡市",
+   "province": "陕西省",
+   "city_page": "cities/610300.html"
+  },
+  {
+   "name": "鸿基路商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 4.07,
+   "poi": 68,
+   "total": 62.7,
+   "food": 31,
+   "leisure": 23,
+   "kids": 1,
+   "hotel": 2,
+   "city": "铜川市",
+   "province": "陕西省",
+   "city_page": "cities/610200.html"
+  },
+  {
+   "name": "雁塔南路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.47,
+   "poi": 24,
+   "total": 62.0,
+   "food": 5,
+   "leisure": 3,
+   "kids": 2,
+   "hotel": 1,
+   "city": "西安市",
+   "province": "陕西省",
+   "city_page": "cities/610100.html"
+  }
+ ]
+}

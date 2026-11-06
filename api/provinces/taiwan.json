@@ -1,0 +1,408 @@
+{
+ "province": "台湾省",
+ "slug": "taiwan",
+ "adcode": "71",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 20,
+  "poi": 13485,
+  "districts": 158,
+  "grades": {
+   "S": 0,
+   "A": 7,
+   "B": 25,
+   "C": 126
+  }
+ },
+ "page": "provinces/%E5%8F%B0%E6%B9%BE%E7%9C%81.html",
+ "cities": [
+  {
+   "city": "云林县",
+   "adcode": "711400",
+   "poi_total": 620,
+   "district_count": 4,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 0,
+    "C": 4
+   },
+   "file": "/api/cities/711400.json",
+   "page": "cities/711400.html"
+  },
+  {
+   "city": "南投县",
+   "adcode": "710900",
+   "poi_total": 557,
+   "district_count": 4,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 2,
+    "C": 2
+   },
+   "file": "/api/cities/710900.json",
+   "page": "cities/710900.html"
+  },
+  {
+   "city": "台东县",
+   "adcode": "711500",
+   "poi_total": 454,
+   "district_count": 2,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 1,
+    "C": 1
+   },
+   "file": "/api/cities/711500.json",
+   "page": "cities/711500.html"
+  },
+  {
+   "city": "台中市",
+   "adcode": "710400",
+   "poi_total": 968,
+   "district_count": 14,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 3,
+    "C": 11
+   },
+   "file": "/api/cities/710400.json",
+   "page": "cities/710400.html"
+  },
+  {
+   "city": "台北市",
+   "adcode": "710100",
+   "poi_total": 969,
+   "district_count": 19,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 3,
+    "C": 15
+   },
+   "file": "/api/cities/710100.json",
+   "page": "cities/710100.html"
+  },
+  {
+   "city": "台南市",
+   "adcode": "710500",
+   "poi_total": 867,
+   "district_count": 12,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 3,
+    "C": 9
+   },
+   "file": "/api/cities/710500.json",
+   "page": "cities/710500.html"
+  },
+  {
+   "city": "嘉义县",
+   "adcode": "711900",
+   "poi_total": 506,
+   "district_count": 1,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 0,
+    "C": 1
+   },
+   "file": "/api/cities/711900.json",
+   "page": "cities/711900.html"
+  },
+  {
+   "city": "嘉义市",
+   "adcode": "711800",
+   "poi_total": 525,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 0,
+    "C": 4
+   },
+   "file": "/api/cities/711800.json",
+   "page": "cities/711800.html"
+  },
+  {
+   "city": "基隆市",
+   "adcode": "711600",
+   "poi_total": 438,
+   "district_count": 3,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 0,
+    "C": 2
+   },
+   "file": "/api/cities/711600.json",
+   "page": "cities/711600.html"
+  },
+  {
+   "city": "宜兰县",
+   "adcode": "711700",
+   "poi_total": 661,
+   "district_count": 4,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 2,
+    "C": 2
+   },
+   "file": "/api/cities/711700.json",
+   "page": "cities/711700.html"
+  },
+  {
+   "city": "屏东县",
+   "adcode": "710800",
+   "poi_total": 749,
+   "district_count": 12,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 2,
+    "C": 10
+   },
+   "file": "/api/cities/710800.json",
+   "page": "cities/710800.html"
+  },
+  {
+   "city": "彰化县",
+   "adcode": "711300",
+   "poi_total": 770,
+   "district_count": 9,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 2,
+    "C": 7
+   },
+   "file": "/api/cities/711300.json",
+   "page": "cities/711300.html"
+  },
+  {
+   "city": "新北市",
+   "adcode": "710300",
+   "poi_total": 919,
+   "district_count": 22,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 1,
+    "C": 21
+   },
+   "file": "/api/cities/710300.json",
+   "page": "cities/710300.html"
+  },
+  {
+   "city": "新竹县",
+   "adcode": "710700",
+   "poi_total": 633,
+   "district_count": 7,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 1,
+    "C": 6
+   },
+   "file": "/api/cities/710700.json",
+   "page": "cities/710700.html"
+  },
+  {
+   "city": "新竹市",
+   "adcode": "711200",
+   "poi_total": 578,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 3
+   },
+   "file": "/api/cities/711200.json",
+   "page": "cities/711200.html"
+  },
+  {
+   "city": "桃园市",
+   "adcode": "710600",
+   "poi_total": 881,
+   "district_count": 15,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 2,
+    "C": 13
+   },
+   "file": "/api/cities/710600.json",
+   "page": "cities/710600.html"
+  },
+  {
+   "city": "澎湖县",
+   "adcode": "712000",
+   "poi_total": 354,
+   "district_count": 1,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 0,
+    "C": 0
+   },
+   "file": "/api/cities/712000.json",
+   "page": "cities/712000.html"
+  },
+  {
+   "city": "花莲县",
+   "adcode": "711000",
+   "poi_total": 535,
+   "district_count": 2,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 0,
+    "C": 1
+   },
+   "file": "/api/cities/711000.json",
+   "page": "cities/711000.html"
+  },
+  {
+   "city": "苗栗县",
+   "adcode": "711100",
+   "poi_total": 594,
+   "district_count": 7,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 0,
+    "C": 7
+   },
+   "file": "/api/cities/711100.json",
+   "page": "cities/711100.html"
+  },
+  {
+   "city": "高雄市",
+   "adcode": "710200",
+   "poi_total": 907,
+   "district_count": 10,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 2,
+    "C": 7
+   },
+   "file": "/api/cities/710200.json",
+   "page": "cities/710200.html"
+  }
+ ],
+ "food_top": [],
+ "districts_top": [
+  {
+   "name": "书院里仁爱路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 2.47,
+   "poi": 236,
+   "total": 74.6,
+   "food": 74,
+   "leisure": 76,
+   "kids": 5,
+   "hotel": 25,
+   "city": "嘉义市",
+   "province": "台湾省",
+   "city_page": "cities/711800.html"
+  },
+  {
+   "name": "中山路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 2.47,
+   "poi": 122,
+   "total": 69.8,
+   "food": 43,
+   "leisure": 39,
+   "kids": 8,
+   "hotel": 5,
+   "city": "花莲县",
+   "province": "台湾省",
+   "city_page": "cities/711000.html"
+  },
+  {
+   "name": "林森北路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 2.95,
+   "poi": 90,
+   "total": 67.7,
+   "food": 21,
+   "leisure": 34,
+   "kids": 3,
+   "hotel": 7,
+   "city": "台北市",
+   "province": "台湾省",
+   "city_page": "cities/710100.html"
+  },
+  {
+   "name": "玉田里爱四路商圈",
+   "grade": "A",
+   "shape": "混合型（含百货商场型）",
+   "rating": 2.43,
+   "poi": 203,
+   "total": 65.9,
+   "food": 71,
+   "leisure": 83,
+   "kids": 6,
+   "hotel": 11,
+   "city": "基隆市",
+   "province": "台湾省",
+   "city_page": "cities/711600.html"
+  },
+  {
+   "name": "成功里复兴路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 2.37,
+   "poi": 179,
+   "total": 64.3,
+   "food": 53,
+   "leisure": 75,
+   "kids": 1,
+   "hotel": 12,
+   "city": "新竹市",
+   "province": "台湾省",
+   "city_page": "cities/711200.html"
+  },
+  {
+   "name": "启明里临海路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 1.94,
+   "poi": 178,
+   "total": 64.2,
+   "food": 70,
+   "leisure": 61,
+   "kids": 2,
+   "hotel": 2,
+   "city": "澎湖县",
+   "province": "台湾省",
+   "city_page": "cities/712000.html"
+  },
+  {
+   "name": "中山一路商圈",
+   "grade": "A",
+   "shape": "混合型（含购物中心型）",
+   "rating": 2.5,
+   "poi": 89,
+   "total": 63.4,
+   "food": 13,
+   "leisure": 51,
+   "kids": 2,
+   "hotel": 11,
+   "city": "高雄市",
+   "province": "台湾省",
+   "city_page": "cities/710200.html"
+  }
+ ]
+}

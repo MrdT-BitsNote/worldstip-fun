@@ -1,0 +1,412 @@
+{
+ "province": "宁夏回族自治区",
+ "slug": "ningxia",
+ "adcode": "64",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 5,
+  "poi": 3711,
+  "districts": 52,
+  "grades": {
+   "S": 2,
+   "A": 8,
+   "B": 19,
+   "C": 23
+  }
+ },
+ "page": "provinces/%E5%AE%81%E5%A4%8F%E5%9B%9E%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA.html",
+ "cities": [
+  {
+   "city": "中卫市",
+   "adcode": "640500",
+   "poi_total": 643,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 0,
+    "C": 3
+   },
+   "file": "/api/cities/640500.json",
+   "page": "cities/640500.html"
+  },
+  {
+   "city": "吴忠市",
+   "adcode": "640300",
+   "poi_total": 724,
+   "district_count": 12,
+   "grades": {
+    "S": 1,
+    "A": 1,
+    "B": 3,
+    "C": 7
+   },
+   "file": "/api/cities/640300.json",
+   "page": "cities/640300.html"
+  },
+  {
+   "city": "固原市",
+   "adcode": "640400",
+   "poi_total": 651,
+   "district_count": 10,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 5,
+    "C": 4
+   },
+   "file": "/api/cities/640400.json",
+   "page": "cities/640400.html"
+  },
+  {
+   "city": "石嘴山市",
+   "adcode": "640200",
+   "poi_total": 648,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 3,
+    "C": 0
+   },
+   "file": "/api/cities/640200.json",
+   "page": "cities/640200.html"
+  },
+  {
+   "city": "银川市",
+   "adcode": "640100",
+   "poi_total": 1045,
+   "district_count": 20,
+   "grades": {
+    "S": 1,
+    "A": 2,
+    "B": 8,
+    "C": 9
+   },
+   "file": "/api/cities/640100.json",
+   "page": "cities/640100.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "熙春巷便民夜市(满春家园店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 17.0,
+   "address": "春景苑东区东门北60米",
+   "image": "https://store.is.autonavi.com/showpic/10B636AB_73F5_4A2D_A5E7_165A28E9277D_L0_001_2000_150_1756551879089_15661616.jpg",
+   "mark": "✅A-",
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  },
+  {
+   "name": "杜优素(黄河路店)",
+   "type": "餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 64.0,
+   "address": "黄河路与润泽路交叉东南角杜优素物质文化遗产品牌餐饮展示店",
+   "image": "https://store.is.autonavi.com/showpic/5a8e0abdf090b4200000002455638011?type=pic",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "熙珍烤肉(唐徕花园店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 100.0,
+   "address": "唐徕巷唐徕花园B区西门北50米路东",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_368575_ss__1760243857224_48387147.jpg",
+   "mark": "✅A-",
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  },
+  {
+   "name": "熙珍烤肉",
+   "type": "餐饮服务;外国餐厅;韩国料理",
+   "rating": 4.8,
+   "avg": 89.0,
+   "address": "新昌东路81号",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_368575_ss__1760243857224_48387147.jpg",
+   "mark": "✅A-",
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  },
+  {
+   "name": "怀远观光夜市",
+   "type": "餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 28.0,
+   "address": "文萃北街128号",
+   "image": "https://store.is.autonavi.com/showpic/03d130d5a71dfc8f09e5a6120d1d5dbb",
+   "mark": "✅A-",
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  },
+  {
+   "name": "麻辣因子滩羊火锅(阳晨美家店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.7,
+   "avg": 63.0,
+   "address": "鼓楼南街阳晨美家商场一层",
+   "image": "https://store.is.autonavi.com/showpic/42EF6D69_8C6A_44D9_89AF_5228EC3B8E39_L0_001_2000_150_1763184309081_13448999.jpg",
+   "mark": "✅A-",
+   "city": "中卫市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640500.html"
+  },
+  {
+   "name": "枣园莫氏清炖土鸡",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.7,
+   "avg": 36.0,
+   "address": "109国道",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_113741_ss__1753881347940_09129648.jpg",
+   "mark": "✅A-",
+   "city": "中卫市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640500.html"
+  },
+  {
+   "name": "国强手抓(利通旗舰店)",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.7,
+   "avg": 85.0,
+   "address": "民族路宏泰牛街S1-101-102-111号",
+   "image": "https://store.is.autonavi.com/showpic/O1CN0169hqjd1IydiCv9YCR_!!3695320962-0-kbcontentapng.jpg",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "国强手抓(总店)",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.7,
+   "avg": 84.0,
+   "address": "食府路吴忠南大寺1层",
+   "image": "https://store.is.autonavi.com/showpic/4582405C_2FC4_443D_850C_7E083EE9B98E_L0_001_2000_150_1757425760525_99225672.jpg",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "民族美食广场、清真[地方特色]",
+   "type": "餐饮服务;中餐厅;综合酒楼",
+   "rating": 4.7,
+   "avg": 67.0,
+   "address": "文华街与民族路交叉口宏泰商业广场",
+   "image": "https://store.is.autonavi.com/showpic/464c24502e5d6c4e1bb4c53fa2ed4ddf",
+   "mark": "✅A",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "吴忠民族饭庄(利通南街店)",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.7,
+   "avg": 59.0,
+   "address": "新生街27号",
+   "image": "https://store.is.autonavi.com/showpic/c26568d895185870b0776d690ce8c9bb",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "南门建龙饭店(恒美餐饮娱乐厚街店)",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.7,
+   "avg": 59.0,
+   "address": "利宁南街恒美餐饮娱乐厚街西门口",
+   "image": "https://store.is.autonavi.com/showpic/c7746b15a5dd670421c4ccd2b7a02e56_2048_2048_80.jpg",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "香丁丁早茶文化体验馆",
+   "type": "餐饮服务;茶艺馆;茶艺馆",
+   "rating": 4.7,
+   "avg": 48.0,
+   "address": "万达广场东门10-15号营业房",
+   "image": "https://store.is.autonavi.com/showpic/bd607eaacaaa1eee0000003549882487?type=pic",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "马伊饭庄",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.7,
+   "avg": 38.0,
+   "address": "板桥乡友谊西路838号",
+   "image": "https://store.is.autonavi.com/showpic/96fbc823cbb60fe00000002574490907?type=pic",
+   "mark": "✅A-",
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "新华东街商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.23,
+   "poi": 140,
+   "total": 83.0,
+   "food": 30,
+   "leisure": 43,
+   "kids": 3,
+   "hotel": 14,
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  },
+  {
+   "name": "南苑东路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.91,
+   "poi": 306,
+   "total": 81.8,
+   "food": 99,
+   "leisure": 117,
+   "kids": 4,
+   "hotel": 18,
+   "city": "中卫市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640500.html"
+  },
+  {
+   "name": "吴灵西路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.05,
+   "poi": 136,
+   "total": 79.8,
+   "food": 33,
+   "leisure": 68,
+   "kids": 5,
+   "hotel": 4,
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "游艺东街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.87,
+   "poi": 207,
+   "total": 75.6,
+   "food": 51,
+   "leisure": 96,
+   "kids": 1,
+   "hotel": 7,
+   "city": "石嘴山市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640200.html"
+  },
+  {
+   "name": "中心路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.88,
+   "poi": 85,
+   "total": 73.6,
+   "food": 34,
+   "leisure": 18,
+   "kids": 3,
+   "hotel": 6,
+   "city": "固原市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640400.html"
+  },
+  {
+   "name": "利通南街商圈",
+   "grade": "A",
+   "shape": "百货商场型",
+   "rating": 3.99,
+   "poi": 95,
+   "total": 72.0,
+   "food": 28,
+   "leisure": 28,
+   "kids": 2,
+   "hotel": 6,
+   "city": "吴忠市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640300.html"
+  },
+  {
+   "name": "东大街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.92,
+   "poi": 60,
+   "total": 67.6,
+   "food": 23,
+   "leisure": 9,
+   "kids": 2,
+   "hotel": 4,
+   "city": "石嘴山市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640200.html"
+  },
+  {
+   "name": "宁安北街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.94,
+   "poi": 71,
+   "total": 65.0,
+   "food": 25,
+   "leisure": 21,
+   "kids": 0,
+   "hotel": 2,
+   "city": "中卫市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640500.html"
+  },
+  {
+   "name": "北京中路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.18,
+   "poi": 39,
+   "total": 64.7,
+   "food": 11,
+   "leisure": 8,
+   "kids": 2,
+   "hotel": 0,
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  },
+  {
+   "name": "正源北街商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 4.28,
+   "poi": 45,
+   "total": 63.2,
+   "food": 13,
+   "leisure": 23,
+   "kids": 2,
+   "hotel": 0,
+   "city": "银川市",
+   "province": "宁夏回族自治区",
+   "city_page": "cities/640100.html"
+  }
+ ]
+}

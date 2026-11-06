@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>数据接口文档 · FUN</title>
-<meta name="description" content="FUN 全国全量数据接口文档：data.json / data.md 端点、Schema 字段、调用示例与使用约定。">
+<meta name="description" content="FUN 数据接口文档：/api 分片接口（按省/按城）与 data.json / data.md 全量端点、Schema 字段、调用示例、CORS 说明与使用约定。">
 <meta property="og:title" content="数据接口文档 · FUN">
-<meta property="og:description" content="FUN 全国全量数据接口文档：data.json / data.md 端点、Schema 字段、调用示例与使用约定。">
+<meta property="og:description" content="FUN 数据接口文档：/api 分片接口（按省/按城）与 data.json / data.md 全量端点、Schema 字段、调用示例、CORS 说明与使用约定。">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FUN · fun.worldstip.com">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9f0a'/%3E%3Cstop offset='.55' stop-color='%23ff375f'/%3E%3Cstop offset='1' stop-color='%23bf5af2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%231d1d1f'/%3E%3Ctext x='32' y='44' font-family='Arial Black,Arial' font-size='30' font-weight='900' text-anchor='middle' fill='url(%23g)'%3EF%3C/text%3E%3C/svg%3E">
@@ -27,30 +27,50 @@
 <a class="back-link" href="index.html">← 返回首页</a>
 <div class="sec-label">API</div>
 <h1 class="sec-title" style="font-size:clamp(2.2rem,5vw,3.4rem)">数据接口文档</h1>
-<p class="sec-desc">全国数据整合为两个全量文件——一次请求拿全量，不必逐城拼凑。所有端点只读、无鉴权、可被 CDN 缓存，适合 skill / agent / 前端直接消费。</p>
+<p class="sec-desc">两套口径：<b>分片接口</b>按省 / 按城取数，单城约 5–115 KB；<b>全量文件</b>一次拿全部（约 40.1 MB）。所有端点只读、无鉴权、可被 CDN 缓存。服务端（Python / Node / Go）可直接调用；浏览器端跨域需服务端下发 CORS 头，见文末「跨域说明」。</p>
 </div></div>
 <div class="wrap doc-body" style="padding-top:30px;padding-bottom:10px">
 
 <h2>端点总览</h2>
 <table><thead><tr><th>端点</th><th>格式</th><th>内容</th><th>体积</th></tr></thead><tbody>
-<tr><td><code>/data.json</code></td><td>JSON</td><td>全国全量单文件：meta / stats / provinces（32 省汇总）/ <b>cities（389 城全量明细）</b> / food_top（800）/ districts_top（1000）</td><td>40.1 MB · gzip 约 10.4 MB</td></tr>
+<tr><td><code>/api/index.json</code></td><td>JSON</td><td><b>推荐入口</b>。全国索引：32 省 + 389 城清单、每省数据文件路径与体积、全站统计</td><td>约 12 KB</td></tr>
+<tr><td><code>/api/provinces/&lt;slug&gt;.json</code></td><td>JSON</td><td>省级包：省汇总 + 城市清单（含单城文件路径）+ 本省美食榜 / 商圈榜。<code>slug</code> 为省份拼音，与 moto.worldstip.com 同一套命名（如 <code>hunan</code>）</td><td>4–51 KB</td></tr>
+<tr><td><code>/api/cities/&lt;adcode&gt;.json</code></td><td>JSON</td><td>单城完整档案，与 <code>data.json</code> 的 <code>cities[]</code> 元素<b>逐字段相同</b>（不含任何重算）</td><td>5–115 KB</td></tr>
+<tr><td><code>/api/food-top.json</code></td><td>JSON</td><td>全国美食榜（800 条，已剔除住宿业主导 POI）</td><td>约 321 KB</td></tr>
+<tr><td><code>/api/districts-top.json</code></td><td>JSON</td><td>全国 S/A 商圈榜（<b>703</b> 条，按四维总分降序）</td><td>约 214 KB</td></tr>
+<tr><td><code>/data.json</code></td><td>JSON</td><td>全国全量单文件：meta / stats / provinces（32 省汇总）/ <b>cities（389 城全量明细）</b> / food_top（800）/ districts_top（703）</td><td>40.1 MB · gzip 约 10.4 MB</td></tr>
 <tr><td><code>/data.md</code></td><td>Markdown</td><td>全国全量单文件：目录 + 统计 + 32 省索引 + 389 城档案（每城 13 章）+ 接口与来源附录</td><td>32.1 MB · gzip 约 10.3 MB</td></tr>
 </tbody></table>
 
+<h2>分片接口怎么用</h2>
+<pre class="code"><code>// ① 先取索引（12 KB），拿到省份列表与各自的数据文件路径
+const index = await (await fetch('https://fun.worldstip.com/api/index.json')).json();
+
+// ② 按省取：省汇总 + 该省城市清单
+const hn = await (await fetch('https://fun.worldstip.com/api/provinces/hunan.json')).json();
+// → { province: "湖南省", slug: "hunan", adcode: "43",
+//     stats: { cities: 14, poi: 13427, districts: 226, grades: {...} },
+//     cities: [ { city: "长沙市", adcode: "430100", poi_total: ..., file: "/api/cities/430100.json" } ],
+//     food_top: [...], districts_top: [...] }
+
+// ③ 按城取：单城完整档案（与 data.json 的同名元素完全一致）
+const cs = await (await fetch('https://fun.worldstip.com/api/cities/430600.json')).json();</code></pre>
+<p style="color:var(--text-2);font-size:14px;margin:14px 0 0">只想看某个城市的美食，取单城包 <b>约 110 KB</b> 即可；旧版必须下 40.1 MB 全量。分片与全量同源同值，可任选其一，也可交叉校验。</p>
+
 <h2><code>/data.json</code> 顶层结构</h2>
 <pre class="code"><code>{
-  "meta":  { "name": "FUN 全国美食×商圈×娱乐数据库", "version": "v0.9.0",
+  "meta":  { "name": "FUN 全国美食×商圈×娱乐数据库", "version": "v0.9.2",
             "generated": "...", "home": "https://fun.worldstip.com", "schema": {...} },
   "stats": { "provinces": 32, "cities": 389, "poi_total": 328980,
-            "districts_total": 15405, "grades": {"S": 231, "A": 3345, "B": 5300, "C": 6529} },
-  "provinces": [ {"province": "湖南省", "cities": 14, "poi": 11628,
-                  "districts": 428, "grades": {...}, "page": "provinces/湖南省.html"} ],  <span class="cm">// ×32</span>
+            "districts_total": 5534, "grades": {"S": 180, "A": 523, "B": 1945, "C": 2886} },
+  "provinces": [ {"province": "湖南省", "cities": 14, "poi": 13427,
+                  "districts": 226, "grades": {...}, "page": "provinces/湖南省.html"} ],  <span class="cm">// ×32</span>
   "cities": [ { <span class="cm">// ×389，字段见下</span> } ],
   "food_top": [ {"name": "...", "type": "餐饮服务;中餐厅;...", "rating": 4.8,
                  "avg": 63, "address": "...", "image": "https://store.is.autonavi.com/...",
                  "city": "岳阳市", "province": "湖南省", "city_page": "cities/430600.html"} ],  <span class="cm">// ×800，已剔除住宿业主导 POI</span>
   "districts_top": [ {"name": "...", "grade": "S", "carrier": "...", "rating": 4.8,
-                      "food": 120, "leisure": 88, "city": "...", "province": "...", "city_page": "..."} ]  <span class="cm">// ×1000，S/A 级</span>
+                      "food": 120, "leisure": 88, "city": "...", "province": "...", "city_page": "..."} ]  <span class="cm">// ×703，仅 S/A 级</span>
 }</code></pre>
 
 <h2>城市记录字段（<code>cities[]</code>）</h2>
@@ -83,28 +103,38 @@
 </tbody></table>
 
 <h2>调用示例</h2>
-<pre class="code"><code><span class="cm"># 1. 全量一次落地（约 40.1 MB，CDN 自动 gzip/br）</span>
-curl -s https://fun.worldstip.com/data.json -o fun-data.json
+<pre class="code"><code><span class="cm"># 1. 推荐：分片取数。先拿索引（约 12 KB），再按需取省 / 城</span>
+curl -s https://fun.worldstip.com/api/index.json | jq '.provinces[] | {province, slug, cities, file}'
+curl -s https://fun.worldstip.com/api/provinces/hunan.json | jq '.cities[].city'
+curl -s https://fun.worldstip.com/api/cities/430600.json | jq '{city, poi_total, grades}'
 
-<span class="cm"># 2. Python 流式读取，只保留目标城市</span>
+<span class="cm"># 2. 某城 S 级商圈（只下 110 KB 单城包，不必下 40.1 MB 全量）</span>
+curl -s https://fun.worldstip.com/api/cities/430600.json   | jq '.districts[] | select(.grade=="S") | {name, poi, total, center}'
+
+<span class="cm"># 3. Python 侧：索引 -> 遍历省份 -> 逐城处理</span>
 <span class="kw">import</span> json, urllib.request
-with urllib.request.urlopen("https://fun.worldstip.com/data.json") as r:
-    d = json.load(r)
-yy = next(c <span class="kw">for</span> c <span class="kw">in</span> d["cities"] <span class="kw">if</span> c["city"] == "岳阳市")
-print(yy["poi_total"], yy["grades"], len(yy["food"]))
+get = <span class="kw">lambda</span> u: json.load(urllib.request.urlopen("https://fun.worldstip.com" + u))
+idx = get("/api/index.json")
+<span class="kw">for</span> p <span class="kw">in</span> idx["provinces"]:
+    prov = get(p["file"])
+    <span class="kw">print</span>(prov["province"], len(prov["cities"]), prov["stats"]["poi"])
 
-<span class="cm"># 3. 只要某省汇总 / 某城商圈 S 级</span>
-curl -s https://fun.worldstip.com/data.json | jq '.provinces[] | select(.province=="湖南省")'
-curl -s https://fun.worldstip.com/data.json | jq '.cities[] | select(.city=="岳阳市") | .districts[] | select(.grade=="S")'
+<span class="cm"># 4. 榜单单独取</span>
+curl -s https://fun.worldstip.com/api/food-top.json | jq '.[:10]'
+curl -s https://fun.worldstip.com/api/districts-top.json | jq '.[:10]'
 
-<span class="cm"># 4. 全国美食榜前 10（评分降序，已剔住宿业主导 POI）</span>
-curl -s https://fun.worldstip.com/data.json | jq '.food_top[:10]'
+<span class="cm"># 5. 确实需要全量时（约 40.1 MB，CDN 自动 gzip/br）</span>
+curl -s https://fun.worldstip.com/data.json -o fun-data.json
+curl -s https://fun.worldstip.com/data.md -o fun-data.md   <span class="cm"># LLM / skill 直读版</span></code></pre>
 
-<span class="cm"># 5. 带图美食（jq 过滤 img 非空）</span>
-curl -s https://fun.worldstip.com/data.json | jq '[.cities[] | select(.city=="岳阳市") | .food[] | select(.img != "")][:10]'
-
-<span class="cm"># 6. 人类可读全量 Markdown（LLM / skill 直读）</span>
-curl -s https://fun.worldstip.com/data.md -o fun-data.md</code></pre>
+<h2>跨域说明（CORS）</h2>
+<div class="callout"><b>浏览器端调用需要服务端配合。</b>本站是纯静态文件，跨域响应头只能由服务器下发，HTML/JS 无法自带。
+<ul style="margin:10px 0 0">
+<li><b>服务端 / 命令行 / skill / agent</b>：<code>requests</code>、<code>urllib</code>、<code>curl</code>、<code>fetch</code>（Node）<b>不受同源策略约束，现在就能直接用</b>。</li>
+<li><b>网页里的 <code>fetch()</code></b>：需要服务器在 <code>.json</code> / <code>.md</code> 响应上带 <code>Access-Control-Allow-Origin</code>。本仓库提供三套等价配置，按你的托管方式选一份启用即可：
+<code>deploy/nginx/fun.worldstip.com.conf</code>（nginx，本站当前使用）、<code>_headers</code>（Cloudflare Pages / Netlify）、<code>.htaccess</code>（Apache）。</li>
+<li><b>不想改服务器</b>：用同源反代（在自己的 Web 服务里转发一次）或把数据落到自己的存储里再造接口。</li>
+</ul></div>
 
 <h2>使用约定</h2>
 <div class="callout"><b>一致性承诺：</b>data.json 与 data.md 由同一数据层（<code>build_api.py</code>）从 <code>data/</code> 源档案一次生成，同源同值；任一字段都能在 data.md 对应城市档案中找到出处。</div>
@@ -125,7 +155,7 @@ curl -s https://fun.worldstip.com/data.md -o fun-data.md</code></pre>
 <div class="foot-col"><h4>数据</h4>
 <a href="api.html">数据接口</a><a href="sources.html">数据来源</a>
 <a href="data.json">data.json</a><a href="data.md">data.md</a></div>
-</div><div class="foot-base">数据来源：高德地图 Web 服务 POI（restapi.amap.com）· 美团 · 大众点评 · 生成时间 2026-10-24 22:56<br>
+</div><div class="foot-base">数据来源：高德地图 Web 服务 POI（restapi.amap.com）· 美团 · 大众点评 · 生成时间 2026-11-06 20:06<br>
 数据仅供探索参考，营业状态与评分以各平台实时信息为准。FUN · fun.worldstip.com</div></footer>
 <script src="assets/app.js"></script><script src="assets/leaflet/leaflet.js"></script><script src="assets/homemap.js"></script>
 </body></html>

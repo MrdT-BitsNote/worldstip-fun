@@ -1,0 +1,349 @@
+{
+ "province": "青海省",
+ "slug": "qinghai",
+ "adcode": "63",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 8,
+  "poi": 4267,
+  "districts": 60,
+  "grades": {
+   "S": 3,
+   "A": 8,
+   "B": 16,
+   "C": 33
+  }
+ },
+ "page": "provinces/%E9%9D%92%E6%B5%B7%E7%9C%81.html",
+ "cities": [
+  {
+   "city": "果洛藏族自治州",
+   "adcode": "632600",
+   "poi_total": 317,
+   "district_count": 1,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 1,
+    "C": 0
+   },
+   "file": "/api/cities/632600.json",
+   "page": "cities/632600.html"
+  },
+  {
+   "city": "海东市",
+   "adcode": "630200",
+   "poi_total": 668,
+   "district_count": 17,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 5,
+    "C": 11
+   },
+   "file": "/api/cities/630200.json",
+   "page": "cities/630200.html"
+  },
+  {
+   "city": "海北藏族自治州",
+   "adcode": "632200",
+   "poi_total": 421,
+   "district_count": 7,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 2,
+    "C": 3
+   },
+   "file": "/api/cities/632200.json",
+   "page": "cities/632200.html"
+  },
+  {
+   "city": "海南藏族自治州",
+   "adcode": "632500",
+   "poi_total": 495,
+   "district_count": 6,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 4
+   },
+   "file": "/api/cities/632500.json",
+   "page": "cities/632500.html"
+  },
+  {
+   "city": "海西蒙古族藏族自治州",
+   "adcode": "632800",
+   "poi_total": 659,
+   "district_count": 6,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 1,
+    "C": 3
+   },
+   "file": "/api/cities/632800.json",
+   "page": "cities/632800.html"
+  },
+  {
+   "city": "玉树藏族自治州",
+   "adcode": "632700",
+   "poi_total": 396,
+   "district_count": 4,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 2
+   },
+   "file": "/api/cities/632700.json",
+   "page": "cities/632700.html"
+  },
+  {
+   "city": "西宁市",
+   "adcode": "630100",
+   "poi_total": 968,
+   "district_count": 17,
+   "grades": {
+    "S": 3,
+    "A": 0,
+    "B": 5,
+    "C": 9
+   },
+   "file": "/api/cities/630100.json",
+   "page": "cities/630100.html"
+  },
+  {
+   "city": "黄南藏族自治州",
+   "adcode": "632300",
+   "poi_total": 343,
+   "district_count": 2,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 0,
+    "C": 1
+   },
+   "file": "/api/cities/632300.json",
+   "page": "cities/632300.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "阿斯玛特色干锅炕锅美食城(融城国际总店)",
+   "type": "餐饮服务;餐饮相关场所;餐饮相关",
+   "rating": 4.8,
+   "avg": 48.0,
+   "address": "河东街道芒涯路以北长江路以东37号海西建材装饰物流综合商贸城一期1-11号",
+   "image": "https://store.is.autonavi.com/showpic/7d2dbf636cf8bed70000003763804654?type=pic",
+   "mark": "✅A",
+   "city": "海西蒙古族藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632800.html"
+  },
+  {
+   "name": "阿斯玛特色干锅炕锅美食城",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 48.0,
+   "address": "维也纳酒店对面德银花苑门口旁边10-1-2",
+   "image": "https://store.is.autonavi.com/showpic/7d2dbf636cf8bed70000003763804654?type=pic",
+   "mark": "✅A",
+   "city": "海西蒙古族藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632800.html"
+  },
+  {
+   "name": "青海名吃尕张娃烤肉(海湖总店)",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.8,
+   "avg": 92.0,
+   "address": "彭家寨新村综合办公楼一楼18号商铺",
+   "image": "https://store.is.autonavi.com/showpic/545ce3d90106827f3205fc047de5a947",
+   "mark": "✅A-",
+   "city": "西宁市",
+   "province": "青海省",
+   "city_page": "cities/630100.html"
+  },
+  {
+   "name": "伊然轩青海特色美食",
+   "type": "餐饮服务;中餐厅;清真菜馆",
+   "rating": 4.8,
+   "avg": 89.0,
+   "address": "大众街杨家一巷往里100米",
+   "image": "https://store.is.autonavi.com/showpic/a93d16fa403f287bf229f8f97418018f",
+   "mark": "✅A",
+   "city": "西宁市",
+   "province": "青海省",
+   "city_page": "cities/630100.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "五四西路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.12,
+   "poi": 149,
+   "total": 77.4,
+   "food": 39,
+   "leisure": 79,
+   "kids": 5,
+   "hotel": 0,
+   "city": "西宁市",
+   "province": "青海省",
+   "city_page": "cities/630100.html"
+  },
+  {
+   "name": "西大街商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.13,
+   "poi": 105,
+   "total": 75.1,
+   "food": 38,
+   "leisure": 23,
+   "kids": 0,
+   "hotel": 8,
+   "city": "西宁市",
+   "province": "青海省",
+   "city_page": "cities/630100.html"
+  },
+  {
+   "name": "五四大街商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.07,
+   "poi": 118,
+   "total": 74.9,
+   "food": 28,
+   "leisure": 53,
+   "kids": 1,
+   "hotel": 3,
+   "city": "西宁市",
+   "province": "青海省",
+   "city_page": "cities/630100.html"
+  },
+  {
+   "name": "八一中路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.96,
+   "poi": 122,
+   "total": 73.3,
+   "food": 52,
+   "leisure": 33,
+   "kids": 1,
+   "hotel": 5,
+   "city": "海西蒙古族藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632800.html"
+  },
+  {
+   "name": "天峻西路商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 3.83,
+   "poi": 123,
+   "total": 71.2,
+   "food": 35,
+   "leisure": 56,
+   "kids": 3,
+   "hotel": 2,
+   "city": "海西蒙古族藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632800.html"
+  },
+  {
+   "name": "青海湖南大街商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.77,
+   "poi": 135,
+   "total": 70.9,
+   "food": 58,
+   "leisure": 39,
+   "kids": 2,
+   "hotel": 6,
+   "city": "海南藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632500.html"
+  },
+  {
+   "name": "结古大道商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 3.67,
+   "poi": 168,
+   "total": 70.8,
+   "food": 78,
+   "leisure": 37,
+   "kids": 1,
+   "hotel": 14,
+   "city": "玉树藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632700.html"
+  },
+  {
+   "name": "南大街商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 3.53,
+   "poi": 87,
+   "total": 67.9,
+   "food": 27,
+   "leisure": 22,
+   "kids": 4,
+   "hotel": 5,
+   "city": "海北藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632200.html"
+  },
+  {
+   "name": "人民路商圈",
+   "grade": "A",
+   "shape": "百货商场型",
+   "rating": 3.88,
+   "poi": 92,
+   "total": 67.2,
+   "food": 49,
+   "leisure": 21,
+   "kids": 1,
+   "hotel": 6,
+   "city": "海北藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632200.html"
+  },
+  {
+   "name": "新乐大街商圈",
+   "grade": "A",
+   "shape": "混合型（含百货商场型）",
+   "rating": 3.64,
+   "poi": 68,
+   "total": 63.8,
+   "food": 17,
+   "leisure": 26,
+   "kids": 1,
+   "hotel": 5,
+   "city": "海东市",
+   "province": "青海省",
+   "city_page": "cities/630200.html"
+  },
+  {
+   "name": "热贡路商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 3.53,
+   "poi": 122,
+   "total": 62.0,
+   "food": 52,
+   "leisure": 34,
+   "kids": 0,
+   "hotel": 11,
+   "city": "黄南藏族自治州",
+   "province": "青海省",
+   "city_page": "cities/632300.html"
+  }
+ ]
+}

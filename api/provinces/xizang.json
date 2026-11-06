@@ -1,0 +1,254 @@
+{
+ "province": "西藏自治区",
+ "slug": "xizang",
+ "adcode": "54",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 7,
+  "poi": 4034,
+  "districts": 57,
+  "grades": {
+   "S": 2,
+   "A": 6,
+   "B": 22,
+   "C": 27
+  }
+ },
+ "page": "provinces/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA.html",
+ "cities": [
+  {
+   "city": "山南市",
+   "adcode": "540500",
+   "poi_total": 524,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 2,
+    "B": 1,
+    "C": 2
+   },
+   "file": "/api/cities/540500.json",
+   "page": "cities/540500.html"
+  },
+  {
+   "city": "拉萨市",
+   "adcode": "540100",
+   "poi_total": 869,
+   "district_count": 20,
+   "grades": {
+    "S": 1,
+    "A": 1,
+    "B": 11,
+    "C": 7
+   },
+   "file": "/api/cities/540100.json",
+   "page": "cities/540100.html"
+  },
+  {
+   "city": "日喀则市",
+   "adcode": "540200",
+   "poi_total": 587,
+   "district_count": 5,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 1,
+    "C": 3
+   },
+   "file": "/api/cities/540200.json",
+   "page": "cities/540200.html"
+  },
+  {
+   "city": "昌都市",
+   "adcode": "540300",
+   "poi_total": 550,
+   "district_count": 7,
+   "grades": {
+    "S": 0,
+    "A": 1,
+    "B": 2,
+    "C": 4
+   },
+   "file": "/api/cities/540300.json",
+   "page": "cities/540300.html"
+  },
+  {
+   "city": "林芝市",
+   "adcode": "540400",
+   "poi_total": 624,
+   "district_count": 8,
+   "grades": {
+    "S": 1,
+    "A": 1,
+    "B": 3,
+    "C": 3
+   },
+   "file": "/api/cities/540400.json",
+   "page": "cities/540400.html"
+  },
+  {
+   "city": "那曲市",
+   "adcode": "540600",
+   "poi_total": 480,
+   "district_count": 6,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 1,
+    "C": 5
+   },
+   "file": "/api/cities/540600.json",
+   "page": "cities/540600.html"
+  },
+  {
+   "city": "阿里地区",
+   "adcode": "542500",
+   "poi_total": 400,
+   "district_count": 6,
+   "grades": {
+    "S": 0,
+    "A": 0,
+    "B": 3,
+    "C": 3
+   },
+   "file": "/api/cities/542500.json",
+   "page": "cities/542500.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "忠林餐厅",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 76.0,
+   "address": "吉林北路与贡觉林支路交叉口北行20米路西侧",
+   "image": "https://store.is.autonavi.com/showpic/content_media_external_file_221_1760881322673_34374386.jpg",
+   "mark": "✅A-",
+   "city": "日喀则市",
+   "province": "西藏自治区",
+   "city_page": "cities/540200.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "宇拓路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.22,
+   "poi": 157,
+   "total": 79.5,
+   "food": 58,
+   "leisure": 30,
+   "kids": 1,
+   "hotel": 14,
+   "city": "拉萨市",
+   "province": "西藏自治区",
+   "city_page": "cities/540100.html"
+  },
+  {
+   "name": "上海中路商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 3.79,
+   "poi": 151,
+   "total": 76.2,
+   "food": 49,
+   "leisure": 46,
+   "kids": 5,
+   "hotel": 7,
+   "city": "日喀则市",
+   "province": "西藏自治区",
+   "city_page": "cities/540200.html"
+  },
+  {
+   "name": "广东路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.08,
+   "poi": 108,
+   "total": 74.5,
+   "food": 35,
+   "leisure": 36,
+   "kids": 1,
+   "hotel": 10,
+   "city": "林芝市",
+   "province": "西藏自治区",
+   "city_page": "cities/540400.html"
+  },
+  {
+   "name": "格桑路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.83,
+   "poi": 118,
+   "total": 70.5,
+   "food": 47,
+   "leisure": 45,
+   "kids": 0,
+   "hotel": 5,
+   "city": "山南市",
+   "province": "西藏自治区",
+   "city_page": "cities/540500.html"
+  },
+  {
+   "name": "太阳岛二路商圈",
+   "grade": "A",
+   "shape": "混合型（含商业街型）",
+   "rating": 4.19,
+   "poi": 52,
+   "total": 68.9,
+   "food": 21,
+   "leisure": 16,
+   "kids": 0,
+   "hotel": 3,
+   "city": "拉萨市",
+   "province": "西藏自治区",
+   "city_page": "cities/540100.html"
+  },
+  {
+   "name": "萨热路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 3.59,
+   "poi": 68,
+   "total": 62.6,
+   "food": 24,
+   "leisure": 19,
+   "kids": 3,
+   "hotel": 0,
+   "city": "山南市",
+   "province": "西藏自治区",
+   "city_page": "cities/540500.html"
+  },
+  {
+   "name": "卧龙街商圈",
+   "grade": "A",
+   "shape": "百货商场型",
+   "rating": 3.64,
+   "poi": 126,
+   "total": 62.4,
+   "food": 52,
+   "leisure": 50,
+   "kids": 2,
+   "hotel": 4,
+   "city": "昌都市",
+   "province": "西藏自治区",
+   "city_page": "cities/540300.html"
+  },
+  {
+   "name": "梅州大道商圈",
+   "grade": "A",
+   "shape": "混合型（含步行街型）",
+   "rating": 3.87,
+   "poi": 61,
+   "total": 62.3,
+   "food": 28,
+   "leisure": 12,
+   "kids": 1,
+   "hotel": 9,
+   "city": "林芝市",
+   "province": "西藏自治区",
+   "city_page": "cities/540400.html"
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "province": "上海市",
+ "slug": "shanghai",
+ "adcode": "31",
+ "generated": "2026-10-24 20:41",
+ "stats": {
+  "cities": 1,
+  "poi": 1213,
+  "districts": 8,
+  "grades": {
+   "S": 1,
+   "A": 3,
+   "B": 3,
+   "C": 1
+  }
+ },
+ "page": "provinces/%E4%B8%8A%E6%B5%B7%E5%B8%82.html",
+ "cities": [
+  {
+   "city": "上海市",
+   "adcode": "310100",
+   "poi_total": 1213,
+   "district_count": 8,
+   "grades": {
+    "S": 1,
+    "A": 3,
+    "B": 3,
+    "C": 1
+   },
+   "file": "/api/cities/310100.json",
+   "page": "cities/310100.html"
+  }
+ ],
+ "food_top": [
+  {
+   "name": "海福多共富海鲜面馆",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 224.0,
+   "address": "顾村镇联谊路370号71号楼103",
+   "image": "https://store.is.autonavi.com/showpic/20260322-bf0e49993d24c37a7369959e-5dNMMlJW4NgAxHHENglVKa.jpg",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "红子鸡凤凰楼",
+   "type": "餐饮服务;中餐厅;综合酒楼",
+   "rating": 4.9,
+   "avg": 164.0,
+   "address": "澳门路188号(江宁路地铁站1号口步行370米)",
+   "image": "https://store.is.autonavi.com/showpic/e943619c83f9a6010000002881798692?type=pic",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "南门涮肉(上海一店)",
+   "type": "餐饮服务;中餐厅;火锅店",
+   "rating": 4.9,
+   "avg": 123.0,
+   "address": "中国(上海)自由贸易试验区世博大道450号",
+   "image": "https://store.is.autonavi.com/showpic/363907ab51ab3069291e82972d3caaf7",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "农家菜老大(松江店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 111.0,
+   "address": "沪松公路6351号",
+   "image": "https://store.is.autonavi.com/showpic/9bdd139bb1b1debb40d2944380a17766",
+   "mark": "✅A",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "金强牛肉面长寿路店",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 36.0,
+   "address": "长寿路1118号-2",
+   "image": "https://store.is.autonavi.com/showpic/029c0bc2fa939fa10000003657494115?type=pic",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "金强牛肉面(虹梅路店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.9,
+   "avg": 34.0,
+   "address": "虹梅路2988弄2号",
+   "image": "https://store.is.autonavi.com/showpic/%5B2026-02-08-09-39-20%5DAA2A10CB-D955-4EAE-8CE7-0870A0C585A_1770514772893_60114415.jpg",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "虹浦荟·新派温州菜·海鲜·家烧·商务宴请首选(虹桥店)",
+   "type": "餐饮服务;中餐厅;中餐厅",
+   "rating": 4.8,
+   "avg": 288.0,
+   "address": "虹桥路2396号(独栋洋楼·免费停车·环境优雅·定制宴会)",
+   "image": "https://store.is.autonavi.com/showpic/9554f8d4b545287acfbf5f77b352fbb1",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "拉蒂娜·巴西牛排馆Latina(铜仁店)",
+   "type": "餐饮服务;外国餐厅;外国餐厅",
+   "rating": 4.8,
+   "avg": 274.0,
+   "address": "铜仁路88号大厅2楼",
+   "image": "https://store.is.autonavi.com/showpic/0e643e477543e01496528cda9f892ef5",
+   "mark": "✅A-",
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  }
+ ],
+ "districts_top": [
+  {
+   "name": "南京东路商圈",
+   "grade": "S",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.38,
+   "poi": 195,
+   "total": 79.5,
+   "food": 36,
+   "leisure": 126,
+   "kids": 0,
+   "hotel": 0,
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "南京西路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.67,
+   "poi": 26,
+   "total": 65.9,
+   "food": 7,
+   "leisure": 11,
+   "kids": 0,
+   "hotel": 1,
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "方浜中路商圈",
+   "grade": "A",
+   "shape": "混合型（购物中心+街区）",
+   "rating": 4.48,
+   "poi": 21,
+   "total": 65.4,
+   "food": 5,
+   "leisure": 4,
+   "kids": 1,
+   "hotel": 0,
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  },
+  {
+   "name": "陕西南路商圈",
+   "grade": "A",
+   "shape": "购物中心型",
+   "rating": 4.69,
+   "poi": 28,
+   "total": 62.7,
+   "food": 12,
+   "leisure": 13,
+   "kids": 0,
+   "hotel": 0,
+   "city": "上海市",
+   "province": "上海市",
+   "city_page": "cities/310100.html"
+  }
+ ]
+}

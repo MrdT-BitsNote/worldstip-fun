@@ -125,7 +125,7 @@
 <div class="sec-head-row reveal">
 <div class="sh-txt"><div class="sec-label">API</div>
 <h2 class="sec-title">数据接口</h2>
-<p class="sec-desc">全国数据整合为两个全量文件——一次请求拿全量，不必逐城拼凑。JSON 供机器与 skill 消费，Markdown 供人读与模型直读。</p></div>
+<p class="sec-desc">两种取法：<b><code>/api</code> 分片接口</b>按省 / 按城取，单城约 110 KB；<b>全量文件</b>一次拿全部（40.1 MB）。JSON 供机器与 skill 消费，Markdown 供人读与模型直读。</p></div>
 <div class="sh-act"><a class="sec-jump" href="api.html">完整接口文档 →</a></div>
 </div>
 <div class="api-entry reveal">
@@ -136,7 +136,7 @@
 <code id="api-base">https://fun.worldstip.com</code>
 <button class="copy-btn" id="copy-base" type="button" data-copy="https://fun.worldstip.com">复制</button>
 </div>
-<p class="aeh-tip">整个数据集就是这两个文件：一次请求拿全量。若只要概览，用 <code>Range: bytes=0-8191</code> 取首段即可拿到 stats——右侧按钮现场演示。</p>
+<p class="aeh-tip">整个数据集也可以一次拿全量（右侧两个文件）；<b>只想看某城</b>则走分片：<a href="api/index.json" target="_blank" rel="noopener" style="color:var(--blue)"><code>/api/index.json</code></a> 索引 → <code>/api/provinces/hunan.json</code> 省级包 4–51 KB → <code>/api/cities/430600.json</code> 单城包 5–115 KB。若只要概览，用 <code>Range: bytes=0-8191</code> 取首段即可拿到 stats——右侧按钮现场演示。</p>
 </div>
 <button class="api-try" id="api-try" type="button">▶ 现场调用</button>
 </div>
@@ -216,7 +216,7 @@ curl -s https://fun.worldstip.com/data.md -o fun-data.md</code></pre>
 <div class="foot-col"><h4>数据</h4>
 <a href="api.html">数据接口</a><a href="sources.html">数据来源</a>
 <a href="data.json">data.json</a><a href="data.md">data.md</a></div>
-</div><div class="foot-base">数据来源：高德地图 Web 服务 POI（restapi.amap.com）· 美团 · 大众点评 · 生成时间 2026-10-24 22:56<br>
+</div><div class="foot-base">数据来源：高德地图 Web 服务 POI（restapi.amap.com）· 美团 · 大众点评 · 生成时间 2026-11-06 20:06<br>
 数据仅供探索参考，营业状态与评分以各平台实时信息为准。FUN · fun.worldstip.com</div></footer>
 <script src="assets/app.js"></script><script src="assets/leaflet/leaflet.js"></script><script src="assets/homemap.js"></script>
 </body></html>
